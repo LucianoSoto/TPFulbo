@@ -1,0 +1,25 @@
+nav{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(87, 55, 202);
+    border-bottom: solid 2px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: 7%;
+}
+
+ul:hover{
+    background-color: rgb(53, 17, 110)119, 0, 255;
+}
