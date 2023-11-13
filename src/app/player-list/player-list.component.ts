@@ -7,7 +7,8 @@ import { ApiService } from '../service/api.service';
   styleUrls: ['./player-list.component.css']
 })
 export class PlayerListComponent implements OnInit{
-  data: any[] = [];
+  public data: any[] = [];
+  public search: string = '';
 
   constructor(private apiService: ApiService){}
 
@@ -16,9 +17,14 @@ export class PlayerListComponent implements OnInit{
   }
   
   llenarData(){
-        this.apiService.getData().subscribe(data => {
+          this.apiService.getData().subscribe(data => {
           this.data = data;
-          console.log(this.data);
         })
       }
+
+  onSearchPlayer(search:string){
+    this.search = search;
+    console.log(search);
+  }
 }
+
