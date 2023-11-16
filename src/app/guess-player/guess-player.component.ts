@@ -1,5 +1,7 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../service/api.service';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-guess-player',
@@ -10,18 +12,53 @@ import { ApiService } from '../service/api.service';
 export class GuessPlayerComponent implements OnInit{
 
   public data: any[] = [];
+  public player = {id: "", Pila: "", Posicion: "", Equipo: "", Nacionalidad: "", Liga: "", Edad: ""};
+  public form : FormGroup;
+  public answer : boolean;
 
-  constructor(private apiService: ApiService){}
+
+  constructor(private apiService: ApiService, private formBuilder : FormBuilder){}
 
   ngOnInit(): void {
-    const CHOSENPLAYER : number = this.randomInt();
-      this.getPlayer();
+      const CHOSENPLAYER : number = this.randomInt();
+      this.getPlayer(CHOSENPLAYER);
+      this.form = this.formBuilder.group({
+        selector: ['', [Validators.required]],
+        selector2: ['', [Validators.required]]
+      });
   }
 
-  public getPlayer(){ 
+  public getPlayer(CHOSENPLAYER:number){ 
         this.apiService.getData().subscribe(data => {
           this.data = data;
+          this.data.forEach(i => {
+            if(i.id == CHOSENPLAYER){
+              this.player = i;
+              console.log(this.player);
+            }
+          });
         })
+  }
+
+  Consulta() : any{
+    console.log(this.form.value.selector);
+    switch(this.form.value.selector){
+      case "":{
+        alert("Por favor, inserte un parametro para realizar una busqueda");
+        break;
+      }
+      case "Nacionalidad":{
+        if(this.form.value.selector2 == this.player.Nacionalidad){
+          this.answer = true;
+          console.log(this.answer)
+        }
+        else{
+          this.answer = false;
+          console.log(this.answer)
+        }
+        break;
+      }
+    }
   }
 
   randomInt(){
@@ -40,10 +77,10 @@ export class GuessPlayerComponent implements OnInit{
         }
         case "Nacionalidad": {
           selector.innerHTML = 
-          ` <select name="selector2" id="selector2">
+          ` <select name="selector2" id="selector2" formControlName="selector2">
               <option value="" >--Elige una opción--</option>
               <option value="Argentina">Argentina</option>
-              <option value="Portugal">Portugal</option>
+              <option value="Portugal">Portugal</option> 
               <option value="Noruega">Noruega</option>
               <option value="Brasil">Brasil</option>
               <option value="Francia">Francia</option>
@@ -78,7 +115,7 @@ export class GuessPlayerComponent implements OnInit{
         }
         case "Liga": {
           selector.innerHTML = 
-          ` <select name="selector2" id="selector2">
+          ` <select name="selector2" id="selector2" formControlName="selector2">
               <option value="" >--Elige una opción--</option>
               <option value="Major League Soccer">Major League Soccer</option>
               <option value="Liga Profesional Saudi">Liga Profesional Saudi</option>
@@ -98,7 +135,7 @@ export class GuessPlayerComponent implements OnInit{
         case "Posición": {
           selector.innerHTML = 
           
-          ` <select name="selector2" id="selector2">
+          ` <select name="selector2" id="selector2" formControlName="selector2">
               <option value="" >--Elige una opción--</option>
               <option value="delantero">Delantero</option>
               <option value="centro">Centro-Campista</option>
@@ -111,7 +148,7 @@ export class GuessPlayerComponent implements OnInit{
         case "Equipo": {
           selector.innerHTML = 
           
-          ` <select name="selector2" id="selector2">
+          ` <select name="selector2" id="selector2" formControlName="selector2">
               <option value="" >--Elige una opción--</option>
               <option value="Inter Miami">Inter Miami</option>
               <option value="Al-Nassr">Al-Nassr</option>
@@ -156,6 +193,13 @@ export class GuessPlayerComponent implements OnInit{
               <option value="Ajax">Ajax</option>
               <option value="Feyenoord">Feyenoord</option>
             </select>
+          `  
+          break;
+        }
+        case "Edad": {
+          selector.innerHTML = 
+          
+          ` <input name="selector2" id="selector2" type="number" formControlName="selector2">
           `  
           break;
         }
