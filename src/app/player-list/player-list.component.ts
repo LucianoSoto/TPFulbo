@@ -24,7 +24,6 @@ export class PlayerListComponent implements OnInit{
 
   onSearchPlayer(search:string){
     this.search = search;
-    console.log(search);
   }
 }
 

@@ -20,6 +20,6 @@ nav a{
     margin-top: 10%;
 }
 
-a:hover{
+.active-link a{
     color: black;
 }

@@ -1,0 +1,22 @@
+<h1>Adivina al Jugador!</h1>
+<h4>Reglas: </h4>
+<p>1- Elige una característica del jugador (Nacionalidad, Equipo, Liga o Posición)</p>
+<p>2- Selecciona en la otra casilla la característica que creas correspondiente</p>
+<p>3- En la tabla iran apareciendo si tus suposiciones eran o no acertadas</p>
+<p>4- Usa la tabla para encontrar al jugador y escribilo en la caja de texto</p>
+
+<form>
+    <select name="selector" id="selector" #selection (input)="selector2( selection.value )">
+        <option value="" >--Elige un parametro--</option>
+        <option value="Nacionalidad">Nacionalidad</option>
+        <option value="Liga">Liga</option>
+        <option value="Posición">Posición</option>
+        <option value="Equipo">Equipo</option>
+    </select>
+
+    <div id="selector2"></div>
+
+    <p>Jugador Elegido: </p>
+
+    <input id="name" type="text" placeholder="Nombre del Jugador"> Intentos restantes: 3
+</form>
