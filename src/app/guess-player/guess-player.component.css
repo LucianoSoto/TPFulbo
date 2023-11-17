@@ -1,12 +1,22 @@
-table{
-    padding: 0%;
-    justify-content: center;
+
+#reglas{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: separate;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
-table, td, th{
-    border: solid;
+form{
+    text-align: center;
+    justify-content: center;
+}
+
+#intentos{
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center; 
+}
+
+table{
+    text-align: center;
 }

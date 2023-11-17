@@ -12,9 +12,11 @@ import { Observable } from 'rxjs';
 export class GuessPlayerComponent implements OnInit{
 
   public data: any[] = [];
-  public player = {id: "", Pila: "", Posicion: "", Equipo: "", Nacionalidad: "", Liga: "", Edad: ""};
+  public player = {id: "", Nombre: "" ,Pila: "", Posicion: "", Equipo: "", Nacionalidad: "", Liga: "", Edad: ""};
   public form : FormGroup;
+  public guess : FormGroup;
   public answer : boolean;
+  public intentos : number = 3;
 
 
   constructor(private apiService: ApiService, private formBuilder : FormBuilder){}
@@ -26,6 +28,9 @@ export class GuessPlayerComponent implements OnInit{
         selector: ['', [Validators.required]],
         selector2: ['', [Validators.required]]
       });
+      this.guess = this.formBuilder.group({
+        guess: ['', [Validators.required]]
+      })
   }
 
   public getPlayer(CHOSENPLAYER:number){ 
@@ -41,23 +46,122 @@ export class GuessPlayerComponent implements OnInit{
   }
 
   Consulta() : any{
-    console.log(this.form.value.selector);
+    var edad : any = '';
     switch(this.form.value.selector){
       case "":{
         alert("Por favor, inserte un parametro para realizar una busqueda");
         break;
       }
       case "Nacionalidad":{
-        if(this.form.value.selector2 == this.player.Nacionalidad){
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+          if(this.form.value.selector2 == this.player.Nacionalidad){
           this.answer = true;
-          console.log(this.answer)
         }
         else{
           this.answer = false;
-          console.log(this.answer)
+        }
+          this.agregarConsulta(this.form.value.selector, this.form.value.selector2, this.answer);
+        }
+
+        break;
+      }
+      case "Liga":{
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+          if(this.form.value.selector2 == this.player.Liga){
+          this.answer = true;
+          }
+          else{
+            this.answer = false;
+        }
+          this.agregarConsulta(this.form.value.selector, this.form.value.selector2, this.answer);
+        }
+
+        break;
+      }
+      case "Posición":{
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+        if(this.form.value.selector2 == this.player.Posicion){
+          this.answer = true;
+        }
+        else{
+          this.answer = false;
+        }
+          this.agregarConsulta(this.form.value.selector, this.form.value.selector2, this.answer);
+        }
+        
+        break;
+      }
+      case "Equipo":{
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+        if(this.form.value.selector2 == this.player.Equipo){
+          this.answer = true;
+        }
+        else{
+          this.answer = false;
+        }
+        this.agregarConsulta(this.form.value.selector, this.form.value.selector2, this.answer);
         }
         break;
       }
+      case "Edad":{
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+        if(this.form.value.selector2 == this.player.Edad){
+          edad = true;
+        }
+        else{
+          if(this.player.Edad > this.form.value.selector2){
+            edad = "Mas viejo!";
+          }
+          else{
+            edad = "Mas joven!";
+          }
+        }
+        this.agregarConsulta(this.form.value.selector, this.form.value.selector2, edad);
+      }
+        break;
+      }
+    }
+  }
+
+  agregarConsulta(selector:string, selector2:string, respuesta:any){
+    const tabla : any = document.getElementById("tabla");
+
+    tabla.innerHTML += `<tr >
+    <td class="col">${selector}</td>
+    <td class="col">${selector2}</td>
+    <td class="col">${respuesta}</td>
+    </tr>`;
+  }
+
+  Adivinar(){
+    console.log(this.player.Nombre);
+    console.log(this.guess.value.guess);
+    if(this.guess.value.guess == this.player.Nombre || this.guess.value.guess == this.player.Pila){
+      alert("Felicitaciones! Ganaste!");
+      window.location.reload();
+    }
+    else{
+      alert("Intentalo de nuevo");
+      this.intentos -= 1;
+    }
+    if(this.intentos <= 0){
+      alert("Perdiste! El jugador era: "+ this.player.Nombre);
+      window.location.reload();
     }
   }
 
@@ -199,7 +303,32 @@ export class GuessPlayerComponent implements OnInit{
         case "Edad": {
           selector.innerHTML = 
           
-          ` <input name="selector2" id="selector2" type="number" formControlName="selector2">
+          ` <select name="selector2" id="selector2" formControlName="selector2">
+              <option value="" >--Elige una opción--</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+              <option value="32">32</option>
+              <option value="33">33</option>
+              <option value="34">34</option>
+              <option value="35">35</option>
+              <option value="36">36</option>
+              <option value="37">37</option>
+              <option value="38">38</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
+            </select>
           `  
           break;
         }
