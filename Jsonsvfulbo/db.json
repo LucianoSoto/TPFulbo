@@ -9,6 +9,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Major League Soccer",
             "Edad":  36,
+            "Altura": "170 cm",
+            "Goles": 821,
+            "Valor": 35,
             "Imagen": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/45843.png&w=350&h=254"
         },
         {
@@ -20,6 +23,9 @@
             "Nacionalidad": "Portugal",
             "Liga": "Liga Profesional Saudi",
             "Edad":  38,
+            "Altura": "187 cm",
+            "Goles": 865,
+            "Valor": 15,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg"
         },
         {
@@ -31,6 +37,9 @@
             "Nacionalidad": "Noruega",
             "Liga": "Premier League",
             "Edad":  23,
+            "Altura": "194 cm",
+            "Goles": 231,
+            "Valor": 180,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE1GvaKr7V-jUNh7Y_MeXtA5lTazQ6FqGskPeiTYWWbA&s"
         },
         {
@@ -42,6 +51,9 @@
             "Nacionalidad": "Brasil",
             "Liga": "Primera Division de España",
             "Edad":  23,
+            "Altura": "176 cm",
+            "Goles": 87,
+            "Valor": 150,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/vinicius_380x501_20230810055554.jpg"
         },
         {
@@ -53,6 +65,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Ligue 1",
             "Edad":  24,
+            "Altura": "178 cm",
+            "Goles": 301,
+            "Valor": 180,
             "Imagen": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg?fallback=png"
         },
         {
@@ -64,6 +79,9 @@
             "Nacionalidad": "Belgica",
             "Liga": "Premier League",
             "Edad":  32,
+            "Altura": "181 cm",
+            "Goles": 169,
+            "Valor": 70,
             "Imagen": "https://www.mancity.com/meta/media/z00hnhu0/kevin-de-bruyne.png"
         },
         {
@@ -75,6 +93,9 @@
             "Nacionalidad": "España",
             "Liga": "Premier League",
             "Edad":  27,
+            "Altura": "190 cm",
+            "Goles": 29,
+            "Valor": 100,
             "Imagen": "https://www.mancity.com/meta/media/luzpuwv2/rodrigo.png"
         },
         {
@@ -86,6 +107,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Primera Division de España",
             "Edad":  32,
+            "Altura": "176 cm",
+            "Goles": 301,
+            "Valor": 25,
             "Imagen": "https://img-estaticos.atleticodemadrid.com/system/fotos/7006/destacado_600x600/GRIEZMANN.png?1534246707"
         },
         {
@@ -97,6 +121,9 @@
             "Nacionalidad": "Nigeria",
             "Liga": "Serie A",
             "Edad":  24,
+            "Altura": "185 cm",
+            "Goles": 122,
+            "Valor": 120,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2020-2021/a_282/282707.jpg"
         },
         {
@@ -108,6 +135,9 @@
             "Nacionalidad": "Alemania",
             "Liga": "Primera Division de España",
             "Edad":  33,
+            "Altura": "180 cm",
+            "Goles": 102,
+            "Valor": 20,
             "Imagen": "https://b.fssta.com/uploads/application/soccer/headshots/2091.vresize.350.350.medium.54.png"
         },
         {
@@ -119,6 +149,9 @@
             "Nacionalidad": "Georgia",
             "Liga": "Serie A",
             "Edad":  22,
+            "Altura": "183 cm",
+            "Goles": 53,
+            "Valor": 85,
             "Imagen": "https://imagecache.365scores.com/image/upload/f_png,w_250,h_250,c_limit,q_auto:eco,d_Athletes:default.png,r_max,c_thumb,g_face,z_0.65/Athletes/65803"
         },
         {
@@ -130,6 +163,9 @@
             "Nacionalidad": "Polonia",
             "Liga": "Primera Division de España",
             "Edad":  35,
+            "Altura": "185 cm",
+            "Goles": 656,
+            "Valor": 30,
             "Imagen": "https://assets.laliga.com/squad/2023/t178/p56764/2048x2225/p56764_t178_2023_1_001_000.png"
         },
         {
@@ -141,6 +177,9 @@
             "Nacionalidad": "Portugal",
             "Liga": "Premier League",
             "Edad":  29,
+            "Altura": "173 cm",
+            "Goles": 104,
+            "Valor": 80,
             "Imagen": "https://www.mancity.com/meta/media/yw1hniot/bernardo-silva.png"
         },
         {
@@ -152,6 +191,9 @@
             "Nacionalidad": "Belgica",
             "Liga": "Primera Division de España",
             "Edad":  31,
+            "Altura": "200 cm",
+            "Goles": 0,
+            "Valor": 45,
             "Imagen": "https://www.realmadrid.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fpng&blobkey=id&blobtable=MungoBlobs&blobwhere=1203436406706&ssbinary=true"
         },
         {
@@ -163,6 +205,9 @@
             "Nacionalidad": "Alemania",
             "Liga": "Primera Division de España",
             "Edad":  31,
+            "Altura": "187 cm",
+            "Goles": 0,
+            "Valor": 35,
             "Imagen": "https://www.fcbarcelona.com/photo-resources/2023/10/04/b0033e0e-48a9-416e-ba12-f4c961e527ac/mini_01-MARC-ANDRE_TER_STEGEN.png?width=670&height=790"
         },
         {
@@ -174,6 +219,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Primera Division de España",
             "Edad":  20,
+            "Altura": "186 cm",
+            "Goles": 43,
+            "Valor": 150,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-002ge9-dfl-clu-000007-dfl-sea-0001k7.png"
         },
         {
@@ -185,6 +233,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Serie A",
             "Edad":  26,
+            "Altura": "174 cm",
+            "Goles": 163,
+            "Valor": 100,
             "Imagen": "https://premierleaguebrasil.com.br/wp-content/uploads/2022/06/Lautaro-Martinez.png"
         },
         {
@@ -196,6 +247,9 @@
             "Nacionalidad": "Uruguay",
             "Liga": "Primera Division de España",
             "Edad":  24,
+            "Altura": "188 cm",
+            "Goles": 22,
+            "Valor": 70,
             "Imagen": "https://media02.tr.beinsports.com/img/players/P51660.png"
         },
         {
@@ -207,6 +261,9 @@
             "Nacionalidad": "Noruega",
             "Liga": "Premier League",
             "Edad":  24,
+            "Altura": "178 cm",
+            "Goles": 62,
+            "Valor": 90,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/odegaard_380x501_20210630113047.jpg"
         },
         {
@@ -218,6 +275,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  28,
+            "Altura": "180 cm",
+            "Goles": 51,
+            "Valor": 75,
             "Imagen": "https://www.mancity.com/meta/media/ax3mxptm/jack-grealish.png"
         },
         {
@@ -229,6 +289,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Liga Profesional Saudi",
             "Edad":  35,
+            "Altura": "185 cm",
+            "Goles": 484,
+            "Valor": 15,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/380x501_benzema_20230215094340.jpg"
         },
         {
@@ -240,6 +303,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Bundesliga",
             "Edad":  30,
+            "Altura": "188 cm",
+            "Goles": 378,
+            "Valor": 110,
             "Imagen": "https://img.fcbayern.com/image/upload/t_cms-6x9-seo/v1691827799/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/harry-kane.png"
         },
         {
@@ -251,6 +317,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  26,
+            "Altura": "180 cm",
+            "Goles": 141,
+            "Valor": 75,
             "Imagen": "https://www.directvsports.com/__export/1699300816389/sites/dsports/img/2023/11/06/20231106_050015844_1m5t00ey0xrxh1os1s4jvtw6cb.jpg_1301049368.jpg"
         },
         {
@@ -262,6 +331,9 @@
             "Nacionalidad": "Brasil",
             "Liga": "Primera Division de España",
             "Edad":  22,
+            "Altura": "174 cm",
+            "Goles": 65,
+            "Valor": 100,
             "Imagen": "https://assets.laliga.com/squad/2023/t186/p440077/2048x2225/p440077_t186_2023_1_001_000.png"
         },
         {
@@ -273,6 +345,9 @@
             "Nacionalidad": "Alemania",
             "Liga": "Bundesliga",
             "Edad":  20,
+            "Altura": "184 cm",
+            "Goles": 39,
+            "Valor": 110,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-002gcr-dfl-clu-00000g-dfl-sea-0001k7.png?fit=320,320"
         },
         {
@@ -284,6 +359,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  29,
+            "Altura": "188 cm",
+            "Goles": 20,
+            "Valor": 40,
             "Imagen": "https://www.mancity.com/meta/media/a1vpyqjy/john-stones.png"
         },
         {
@@ -295,6 +373,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Premier League",
             "Edad":  23,
+            "Altura": "170 cm",
+            "Goles": 85,
+            "Valor": 80,
             "Imagen": "https://www.mancity.com/meta/media/4vwjsfxg/julian-alvarez.png"
         },
         {
@@ -306,6 +387,9 @@
             "Nacionalidad": "Portugal",
             "Liga": "Serie A",
             "Edad":  24,
+            "Altura": "188 cm",
+            "Goles": 67,
+            "Valor": 90,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/a_304/304523.jpg"
         },
         {
@@ -317,6 +401,9 @@
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  20,
+            "Altura": "174 cm",
+            "Goles": 21,
+            "Valor": 100,
             "Imagen": "https://www.fcbarcelona.com/photo-resources/2023/10/04/de9aeea0-9ac0-4f64-b298-4fcc1d36a292/mini_08-PEDRI.png?width=670&height=790"
         },
         {
@@ -328,6 +415,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  22,
+            "Altura": "178 cm",
+            "Goles": 55,
+            "Valor": 120,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_364/364090.jpg"
         },
         {
@@ -339,6 +429,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Primera Division de España",
             "Edad":  20,
+            "Altura": "182 cm",
+            "Goles": 9,
+            "Valor": 90,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/camavinga_380x501_20230810055115.jpg"
         },
         {
@@ -350,6 +443,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Premier League",
             "Edad":  31,
+            "Altura": "195 cm",
+            "Goles": 0,
+            "Valor": 28,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2020-2021/a_150/150335.jpg"
         },
         {
@@ -361,6 +457,9 @@
             "Nacionalidad": "Marruecos",
             "Liga": "Liga Profesional Saudi",
             "Edad":  32,
+            "Altura": "195 cm",
+            "Goles": 1,
+            "Valor": 11,
             "Imagen": "https://www.lapreferente.com/imagenes/jugadores/20192020/108642.png?f=20200724%2012:18:55"
         },
         {
@@ -372,6 +471,9 @@
             "Nacionalidad": "Croacia",
             "Liga": "Primera Division de España",
             "Edad":  38,
+            "Altura": "172 cm",
+            "Goles": 113,
+            "Valor": 10,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/modric_380x501_20230810055112.jpg"
         },
         {
@@ -383,6 +485,9 @@
             "Nacionalidad": "Italia",
             "Liga": "Serie A",
             "Edad":  26,
+            "Altura": "172 cm",
+            "Goles": 35,
+            "Valor": 75,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/a_252/252538.jpg"
         },
         {
@@ -394,6 +499,9 @@
             "Nacionalidad": "Brasil",
             "Liga": "Primera Division de España",
             "Edad":  25,
+            "Altura": "186 cm",
+            "Goles": 25,
+            "Valor": 70,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/militao_380x501_20230810054609.jpg"
         },
         {
@@ -405,6 +513,9 @@
             "Nacionalidad": "Portugal",
             "Liga": "Premier League",
             "Edad":  29,
+            "Altura": "180 cm",
+            "Goles": 169,
+            "Valor": 75,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/a_184/184884.jpg"
         },
         {
@@ -416,6 +527,9 @@
             "Nacionalidad": "Egipto",
             "Liga": "Premier League",
             "Edad":  31,
+            "Altura": "175 cm",
+            "Goles": 329,
+            "Valor": 65,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFhUN27ouJKFHAGpF9JdEa4MKTe_4Mdp_xVrGME7Hacs0nRg6uj_9SRDRXeGylTnhlJqQ&usqp=CAU"
         },
         {
@@ -427,6 +541,9 @@
             "Nacionalidad": "Brasil",
             "Liga": "Premier League",
             "Edad":  31,
+            "Altura": "185 cm",
+            "Goles": 63,
+            "Valor": 40,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/casemiro_av38514-fl_20220819093027.jpg"
         },
         {
@@ -438,6 +555,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Premier League",
             "Edad":  22,
+            "Altura": "178 cm",
+            "Goles": 21,
+            "Valor": 80,
             "Imagen": "https://radio3cadenapatagonia.com.ar/wp-content/uploads/2023/02/enzo-fernandez-chelsea1.jpg"
         },
         {
@@ -449,6 +569,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Premier League",
             "Edad":  24,
+            "Altura": "174 cm",
+            "Goles": 35,
+            "Valor": 65,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2022/a_309/309971.jpg"
         },
         {
@@ -460,6 +583,9 @@
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  19,
+            "Altura": "173 cm",
+            "Goles": 12,
+            "Valor": 120,
             "Imagen": "https://www.fcbarcelona.com/photo-resources/2023/10/04/85f70d9d-cda1-49f8-b140-14d82db689e5/mini_30-GAVI.png?width=670&height=790"
         },
         {
@@ -470,7 +596,10 @@
             "Equipo": "Bayern Munich",
             "Nacionalidad": "Corea del Sur",
             "Liga": "Bundesliga",
-            "Edad":  26,
+            "Edad":  90,
+            "Altura": "190 cm",
+            "Goles": 10,
+            "Valor": 60,
             "Imagen": "https://img.fcbayern.com/image/upload/t_cms-6x9-seo/v1689695039/cms/public/images/fcbayern-com/players/spielerportraits/teaser/minjae-kim.png"
         },
         {
@@ -482,6 +611,9 @@
             "Nacionalidad": "Camerun",
             "Liga": "Premier League",
             "Edad":  27,
+            "Altura": "190 cm",
+            "Goles": 0,
+            "Valor": 40,
             "Imagen": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/215340.png&w=350&h=254"
         },
         {
@@ -493,6 +625,9 @@
             "Nacionalidad": "Alemania",
             "Liga": "Primera Division de España",
             "Edad":  33,
+            "Altura": "183 cm",
+            "Goles": 83,
+            "Valor": 15,
             "Imagen": "https://sportarena-cdn.s3.amazonaws.com/production/uploads/player/photo/26502/KROOS.jpg"
         },
         {
@@ -504,6 +639,9 @@
             "Nacionalidad": "Uruguay",
             "Liga": "Primera Division de España",
             "Edad":  25,
+            "Altura": "183 cm",
+            "Goles": 28,
+            "Valor": 100,
             "Imagen": "https://www.lapreferente.com/imagenes/jugadores/20192020/209963.jpg?f=20200722%2020:03:53"
         },
         {
@@ -515,6 +653,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Primeira Liga",
             "Edad":  35,
+            "Altura": "178 cm",
+            "Goles": 198,
+            "Valor": 8,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/di_mariacc_20220617071012.jpg"
         },
         {
@@ -526,6 +667,9 @@
             "Nacionalidad": "Marruecos",
             "Liga": "Premier League",
             "Edad":  27,
+            "Altura": "179 cm",
+            "Goles": 50,
+            "Valor": 30,
             "Imagen": "https://e00-marca.uecdn.es/assets/sports/headshots/football/125/png/144x144/172912.png"
         },
         {
@@ -537,6 +681,9 @@
             "Nacionalidad": "Italia",
             "Liga": "Serie A",
             "Edad":  25,
+            "Altura": "175 cm",
+            "Goles": 17,
+            "Valor": 45,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2019-2020/a_249/249801.jpg"
         },
         {
@@ -548,6 +695,9 @@
             "Nacionalidad": "Marruecos",
             "Liga": "Primera Division de España",
             "Edad":  26,
+            "Altura": "190 cm",
+            "Goles": 109,
+            "Valor": 20,
             "Imagen": "https://assets.laliga.com/squad/2023/t179/p234991/2048x2225/p234991_t179_2023_1_001_000.png"
         },
         {
@@ -559,6 +709,9 @@
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  20,
+            "Altura": "175 cm",
+            "Goles": 1,
+            "Valor": 50,
             "Imagen": "https://assets.laliga.com/squad/2023/t178/p493019/2048x2048/p493019_t178_2023_1_003_000.png"
         },
         {
@@ -570,6 +723,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Serie A",
             "Edad":  29,
+            "Altura": "177 cm",
+            "Goles": 176,
+            "Valor": 30,
             "Imagen": "https://www.fmf.com.mx/gif/paulo-dybala.jpg"
         },
         {
@@ -581,6 +737,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  24,
+            "Altura": "185 cm",
+            "Goles": 19,
+            "Valor": 100,
             "Imagen": "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Fwww.futboom.com%2Fwp-content%2Fuploads%2F2023%2F06%2F1687482808_0_Declan-Rice.jpg"
         },
         {
@@ -592,6 +751,9 @@
             "Nacionalidad": "Croacia",
             "Liga": "Premier League",
             "Edad":  21,
+            "Altura": "185 cm",
+            "Goles": 11,
+            "Valor": 80,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-j01dgi-dfl-clu-000017-dfl-sea-0001k7.png?fit=320,320"
         },
         {
@@ -603,6 +765,9 @@
             "Nacionalidad": "Eslovaquia",
             "Liga": "Serie A",
             "Edad":  28,
+            "Altura": "172 cm",
+            "Goles": 12,
+            "Valor": 40,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj8Y8gLjfPyw6p3XrO9G6PVOUSl7j6dXrwRGnwsNFFBfkRebGtmrCb0F4QepAShGGExk0&usqp=CAU"
         },
         {
@@ -614,6 +779,9 @@
             "Nacionalidad": "Brasil",
             "Liga": "Premier League",
             "Edad":  25,
+            "Altura": "182 cm",
+            "Goles": 27,
+            "Valor": 85,
             "Imagen": "https://b.fssta.com/uploads/application/soccer/headshots/53474.vresize.350.350.medium.22.png"
         },
         {
@@ -625,6 +793,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Serie A",
             "Edad":  28,
+            "Altura": "191 cm",
+            "Goles": 0,
+            "Valor": 45,
             "Imagen": "https://sortitoutsidospaces.b-cdn.net/media/jfvNMGXPdnvI2eEbJC0LOgDbxCw2goBONOw8BRMl.png"
         },
         {
@@ -636,6 +807,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Premier League",
             "Edad":  22,
+            "Altura": "193 cm",
+            "Goles": 4,
+            "Valor": 70,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/a_361/361362.jpg"
         },
         {
@@ -647,6 +821,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Ligue 1",
             "Edad":  25,
+            "Altura": "187 cm",
+            "Goles": 71,
+            "Valor": 80,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-j01h47-dfl-clu-00000f-dfl-sea-0001k7.png?fit=320,320"
         },
         {
@@ -658,6 +835,9 @@
             "Nacionalidad": "Francia",
             "Liga": "Serie A",
             "Edad":  26,
+            "Altura": "184 cm",
+            "Goles": 30,
+            "Valor": 60,
             "Imagen": "https://i.pinimg.com/236x/99/19/46/991946e91ed2ceec5105becf01027c01.jpg"
         },
         {
@@ -669,6 +849,9 @@
             "Nacionalidad": "Marruecos",
             "Liga": "Ligue 1",
             "Edad":  25,
+            "Altura": "181 cm",
+            "Goles": 42,
+            "Valor": 65,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv1KKFnn9rCkn94l-AX_veS3GwQxNcSl7sV6bH9i4G&s"
         },
         {
@@ -680,6 +863,9 @@
             "Nacionalidad": "Nigeria",
             "Liga": "Serie A",
             "Edad":  24,
+            "Altura": "172 cm",
+            "Goles": 46,
+            "Valor": 25,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Qv8Rex9kuqmeIluBU4WP6YL0ilEiim3fVw&usqp=CAU"
         },
         {
@@ -691,6 +877,9 @@
             "Nacionalidad": "España",
             "Liga": "Liga Profesional Saudi",
             "Edad":  21,
+            "Altura": "185 cm",
+            "Goles": 23,
+            "Valor": 30,
             "Imagen": "https://img.asmedia.epimg.net/resizer/2PLE6YukXZVzRvBYizJcK8uzSUs=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/EXTASHWVDVCMZJXRQIKGP7FSB4.jpg"
         },
         {
@@ -702,6 +891,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  33,
+            "Altura": "173 cm",
+            "Goles": 15,
+            "Valor": 11,
             "Imagen": "https://b.fssta.com/uploads/application/soccer/headshots/5439.vresize.350.350.medium.77.png"
         },
         {
@@ -713,6 +905,9 @@
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  24,
+            "Altura": "181 cm",
+            "Goles": 9,
+            "Valor": 40,
             "Imagen": "https://assets.laliga.com/squad/2023/t188/p481655/2048x2225/p481655_t188_2023_1_001_000.png"
         },
         {
@@ -724,6 +919,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Primeira Liga",
             "Edad":  35,
+            "Altura": "183 cm",
+            "Goles": 37,
+            "Valor": 2,
             "Imagen": "https://b.fssta.com/uploads/application/soccer/headshots/8300.png"
         },
         {
@@ -735,6 +933,9 @@
             "Nacionalidad": "Italia",
             "Liga": "Serie A",
             "Edad":  30,
+            "Altura": "183 cm",
+            "Goles": 28,
+            "Valor": 25,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstfnYv3SYpt3MNfXRYAfeFRoeQkFEmAW57v4a0EMFUTCHvFhpavFrhyPzR6XTZ9bibso&usqp=CAU"
         },
         {
@@ -746,6 +947,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Primera Division de España",
             "Edad":  25,
+            "Altura": "175 cm",
+            "Goles": 19,
+            "Valor": 50,
             "Imagen": "https://img-estaticos.atleticodemadrid.com/system/fotos/14843/destacado_600x600/_0009_RECORTES_WEB_0016_NAHUEL.png?1660402837"
         },
         {
@@ -757,6 +961,9 @@
             "Nacionalidad": "Japon",
             "Liga": "Primera Division de España",
             "Edad":  22,
+            "Altura": "173 cm",
+            "Goles": 31,
+            "Valor": 50,
             "Imagen": "https://www.realmadrid.com/img/vertical_380px/kubo_380x501_20220630114953.jpg"
         },
         {
@@ -768,6 +975,9 @@
             "Nacionalidad": "Paises Bajos",
             "Liga": "Bundesliga",
             "Edad":  20,
+            "Altura": "168 cm",
+            "Goles": 28,
+            "Valor": 70,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-j01k71-dfl-clu-000017-dfl-sea-0001k7.png"
         },
         {
@@ -779,17 +989,23 @@
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  27,
+            "Altura": "189 cm",
+            "Goles": 30,
+            "Valor": 50,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMHrWl1EMULVX5Kp1u-NiJx9yEZQ5ky1MNxNVURHntfg&s"
         },
         {
             "id": 72, 
-            "Nombre": "Raphaël Adelino José Guerreiro", 
+            "Nombre": "Raphael Adelino Jose Guerreiro", 
             "Pila": "Guerreiro",
             "Posicion": "Defensa", 
             "Equipo": "Bayern Munich",
             "Nacionalidad": "Portugal",
             "Liga": "Bundesliga",
             "Edad":  29,
+            "Altura": "170 cm",
+            "Goles": 55,
+            "Valor": 15,
             "Imagen": "https://img.fcbayern.com/image/upload/t_cms-1x1-seo/v1687514017/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/raphael-guerreiro.png"
         },
         {
@@ -801,6 +1017,9 @@
             "Nacionalidad": "Alemania",
             "Liga": "Primera Division de España",
             "Edad":  30,
+            "Altura": "190 cm",
+            "Goles": 24,
+            "Valor": 32,
             "Imagen": "https://www.realmadrid.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fpng&blobkey=id&blobtable=MungoBlobs&blobwhere=1203436407681&ssbinary=true"
         },
         {
@@ -812,17 +1031,23 @@
             "Nacionalidad": "Francia",
             "Liga": "Ligue 1",
             "Edad":  32,
+            "Altura": "178 cm",
+            "Goles": 235,
+            "Valor": 12,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgUvLIRFGpvCfzaul82uv-XfCguTqKjG2OIdi1pHlTfqanZyjIXSWhcvRQC_Ddz5LTp5c&usqp=CAU"
         },
         {
             "id": 75, 
-            "Nombre": "Teddy Haller", 
-            "Pila": "Haller",
+            "Nombre": "Sebastien Romain Teddy Haller", 
+            "Pila": "Sebastien Haller",
             "Posicion": "Delantero", 
             "Equipo": "Borussia Dortmund",
             "Nacionalidad": "Costa de Marfil",
             "Liga": "Bundesliga",
             "Edad":  29,
+            "Altura": "190 cm",
+            "Goles": 171,
+            "Valor": 25,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-0027ro-dfl-clu-000007-dfl-sea-0001k7.png?fit=320,320"
         },
         {
@@ -834,6 +1059,9 @@
             "Nacionalidad": "Inglaterra",
             "Liga": "Premier League",
             "Edad":  27,
+            "Altura": "187 cm",
+            "Goles": 143,
+            "Valor": 35,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOyallGsO4qoct81yV7OswgZIH43rXXbsXBDemxUh5-mingsgK7-0CkaUGQP-WVQlRpU&usqp=CAU"
         },
         {
@@ -845,6 +1073,9 @@
             "Nacionalidad": "Portugal",
             "Liga": "Primeira Liga",
             "Edad":  30,
+            "Altura": "173 cm",
+            "Goles": 55,
+            "Valor": 14,
             "Imagen": "https://cdn.resfu.com/media/img_news/joao-mario-posa-como-nuevo-jugador-del-inter--inter.jpg"
         },
         {
@@ -856,6 +1087,9 @@
             "Nacionalidad": "España",
             "Liga": "Bundesliga",
             "Edad":  28,
+            "Altura": "171 cm",
+            "Goles": 41,
+            "Valor": 25,
             "Imagen": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/368_grimaldo.jpg"
         },
         {
@@ -867,6 +1101,9 @@
             "Nacionalidad": "Costa de Marfil",
             "Liga": "Liga Profesional Saudi",
             "Edad":  28,
+            "Altura": "183 cm",
+            "Goles": 6,
+            "Valor": 24,
             "Imagen": "https://s.hs-data.com/bilder/spieler/gross/210874.jpg"
         },
         {
@@ -878,6 +1115,9 @@
             "Nacionalidad": "Canada",
             "Liga": "Ligue 1",
             "Edad":  23,
+            "Altura": "175 cm",
+            "Goles": 124,
+            "Valor": 60,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2020-2021/a_356/356646.jpg"
         },
         {
@@ -889,6 +1129,9 @@
             "Nacionalidad": "Serbia",
             "Liga": "Liga Profesional Saudi",
             "Edad":  28,
+            "Altura": "194 cm",
+            "Goles": 85,
+            "Valor": 40,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ03okrlIfpqD2ZnfYDpgafcJTVD0YYNCCzgNr1sPIhmxsr0nGDJ32P9ipSRJVjA7Po5k&usqp=CAU"
         },
         {
@@ -900,6 +1143,9 @@
             "Nacionalidad": "Serbia",
             "Liga": "Superliga de Turquia",
             "Edad":  34,
+            "Altura": "181 cm",
+            "Goles": 234,
+            "Valor": 5.5,
             "Imagen": "https://img.uefa.com/imgml/TP/players/1/2023/324x324/1902464.jpg"
         },
         {
@@ -911,6 +1157,9 @@
             "Nacionalidad": "Serbia",
             "Liga": "Bundesliga",
             "Edad":  34,
+            "Altura": "177 cm",
+            "Goles": 68,
+            "Valor": 45,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-j01b7l-dfl-clu-000017-dfl-sea-0001k7.png?fit=320,320"
         },
         {
@@ -922,6 +1171,9 @@
             "Nacionalidad": "Paises Bajos",
             "Liga": "Premier League",
             "Edad":  34,
+            "Altura": "193 cm",
+            "Goles": 89,
+            "Valor": 55,
             "Imagen": "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2023-07/pp-23-24-mens-home-body-gakpo.webp?itok=-e2-EWw7"
         },
         {
@@ -933,6 +1185,9 @@
             "Nacionalidad": "Turquia",
             "Liga": "Primeira Liga",
             "Edad":  22,
+            "Altura": "175 cm",
+            "Goles": 35,
+            "Valor": 35,
             "Imagen": "https://www.footballdatabase.eu/images/photos/players/2020-2021/a_335/335597.jpg"
         },
         {
@@ -944,6 +1199,9 @@
             "Nacionalidad": "Hungria",
             "Liga": "Premier League",
             "Edad":  23,
+            "Altura": "186 cm",
+            "Goles": 71,
+            "Valor": 70,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-002gna-dfl-clu-000017-dfl-sea-0001k7.png?fit=320,320"
         },
         {
@@ -955,28 +1213,37 @@
             "Nacionalidad": "Ecuador",
             "Liga": "Premier League",
             "Edad":  38,
+            "Altura": "181 cm",
+            "Goles": 62,
+            "Valor": 0,
             "Imagen": "https://www.ole.com.ar/2023/08/30/s5KMDsCiP_400x400__1.jpg"
         },
         {
             "id": 88, 
             "Nombre": "Isaac Palazón Camacho", 
-            "Pila": "Palazon",
+            "Pila": "Isi Palazon",
             "Posicion": "Delantero", 
             "Equipo": "Rayo Vallecano",
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  28,
+            "Altura": "169 cm",
+            "Goles": 8,
+            "Valor": 12,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK2vd0a5xu7VIdetCE-p4rsucmlAinaxt6cRUxHtJ5eQ&s"
         },
         {
             "id": 89, 
-            "Nombre": "Josip Juranović", 
+            "Nombre": "Josip Juranovic", 
             "Pila": "Juranovic",
             "Posicion": "Defensa", 
             "Equipo": "Union Berlin",
             "Nacionalidad": "Croacia",
             "Liga": "Bundesliga",
             "Edad":  28,
+            "Altura": "173 cm",
+            "Goles": 29,
+            "Valor": 12,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-j01gso-dfl-clu-00000v-dfl-sea-0001k7.png?fit=320,320"
         },    
         {
@@ -988,6 +1255,9 @@
             "Nacionalidad": "Paises Bajos",
             "Liga": "Bundesliga",
             "Edad":  22,
+            "Altura": "178 cm",
+            "Goles": 3,
+            "Valor": 45,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-002goi-dfl-clu-00000b-dfl-sea-0001k7.png"
         },   
         {
@@ -999,6 +1269,9 @@
             "Nacionalidad": "España",
             "Liga": "Primera Division de España",
             "Edad":  29,
+            "Altura": "185 cm",
+            "Goles": 21,
+            "Valor": 15,
             "Imagen": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcR_TrpR3_1Yq7F-pXuCxCwVO2xFDSCmKgoay62iQ8VgG1DoO2iHaJNwDGrnV6BAJxDq"
         }, 
         {
@@ -1010,6 +1283,9 @@
             "Nacionalidad": "Argentina",
             "Liga": "Superliga de Turquia",
             "Edad":  30,
+            "Altura": "180 cm",
+            "Goles": 205,
+            "Valor": 20,
             "Imagen": "https://pbs.twimg.com/profile_images/1052846247428714496/-Fgv9Vun_400x400.jpg"
         },     
         {
@@ -1021,6 +1297,9 @@
             "Nacionalidad": "Iran",
             "Liga": "Primeira Liga",
             "Edad":  31,
+            "Altura": "187 cm",
+            "Goles": 235,
+            "Valor": 18,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1NFKDMQ6z-a9OW0--M5cUJn9R3NM1z8fUUQ8GPDWSLnWaHAMYVGHOB2u3iEhaRaj4Bro&usqp=CAU"
         }, 
         {
@@ -1032,6 +1311,9 @@
             "Nacionalidad": "Belgica",
             "Liga": "Premier League",
             "Edad":  24,
+            "Altura": "177 cm",
+            "Goles": 30,
+            "Valor": 15,
             "Imagen": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/280895.png"
         },     
         {
@@ -1043,6 +1325,9 @@
             "Nacionalidad": "Alemania",
             "Liga": "Bundesliga",
             "Edad":  30,
+            "Altura": "189 cm",
+            "Goles": 116,
+            "Valor": 13,
             "Imagen": "https://b.fssta.com/uploads/application/soccer/headshots/35149.png"
         },        
         {
@@ -1054,6 +1339,9 @@
             "Nacionalidad": "Italia",
             "Liga": "Bundesliga",
             "Edad":  30,
+            "Altura": "181 cm",
+            "Goles": 36,
+            "Valor": 12,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAk4k47eQih_3Fl2VQN80x-DxQnNXj1xEh4jIP79TLavVt8lkYT8K2QPR99G8YHkQ7-Oc&usqp=CAU"
         }, 
         {
@@ -1065,6 +1353,9 @@
             "Nacionalidad": "Japon",
             "Liga": "Scottish Premiership",
             "Edad":  28,
+            "Altura": "170 cm",
+            "Goles": 13,
+            "Valor": 14,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1mgjL93ct0g0aBadB4dpFy6ycrY7jDzq8daEvSg-o1mfKPff_IUBSzi2UsehoxNMPTI&usqp=CAU"
         }, 
         {
@@ -1076,6 +1367,9 @@
             "Nacionalidad": "Estados Unidos",
             "Liga": "Ligue 1",
             "Edad":  22,
+            "Altura": "178 cm",
+            "Goles": 33,
+            "Valor": 30,
             "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8RHbY1Fyar4EnLbIDHFtey4LzgQoQeWHZ3fcO8MGKBpk_CTgUkvmfc4IGGINcnrsKZg&usqp=CAU"
         }, 
         {
@@ -1087,6 +1381,9 @@
             "Nacionalidad": "Nigeria",
             "Liga": "Bundesliga",
             "Edad":  22,
+            "Altura": "193 cm",
+            "Goles": 52,
+            "Valor": 40,
             "Imagen": "https://assets.bundesliga.com/player/dfl-obj-j01tl9-dfl-clu-00000b-dfl-sea-0001k7.png?fit=320,320"
         }, 
         {
@@ -1098,6 +1395,9 @@
             "Nacionalidad": "Paises Bajos",
             "Liga": "Eredisivie",
             "Edad":  28,
+            "Altura": "188 cm",
+            "Goles": 63,
+            "Valor": 9,
             "Imagen": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/196234.png&w=350&h=254"
         }, 
         {
@@ -1109,7 +1409,11 @@
             "Nacionalidad": "Argentina",
             "Liga": "Eredisivie",
             "Edad":  22,
+            "Altura": "185 cm",
+            "Goles": 60,
+            "Valor": 40,
             "Imagen": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/260775.png"
         }
     ]
 }
+
