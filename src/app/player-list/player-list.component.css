@@ -1,7 +1,5 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(56, 55, 55);
-    color: white;
+    color: black;
     padding: 0%;
     margin: 0%;
 }
@@ -14,17 +12,8 @@ h1{
     padding-top: 2%;
 }
 
-table{
-    padding: 0%;
-    justify-content: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: separate;
-}
-
-table, td, th{
-    border: solid;
+.name :hover{
+    background-color: grey;
 }
 
 td img{
@@ -35,4 +24,10 @@ td img{
 #advertencia{
     color: red;
     font-size: 0.6rem;
+}
+
+button {
+    padding: 2%;
+    background-color: transparent;
+    border: none !important;
 }

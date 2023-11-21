@@ -1,0 +1,40 @@
+#ficha{
+    
+}
+
+img{
+    padding-left: 5%;
+    width: 40%;
+}
+
+#datos{
+    display: flex;
+}
+
+hr{
+    top: 10px;
+    height: 10px;
+    color: black;
+}
+
+#ficha{
+    border: solid 3px;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10%;
+    background-color: grey;
+    justify-content: center;
+}
+
+#fichaDerecha{
+    padding-left: 10%;
+    padding-bottom: 1%;
+}
+
+h1{
+    font-size: 3.7rem;
+}
+
+h3{
+    font-size: 2rem;
+}

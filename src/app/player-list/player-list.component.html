@@ -1,5 +1,5 @@
 
-<div>
+<div *ngIf="idSelected == 0">
     <h1>Lista de Jugadores</h1>
     <br>
     <input type="text" 
@@ -8,26 +8,33 @@
            #txtSearch
            (keyup)="onSearchPlayer( txtSearch.value )"/>
     <br>
-    <p id="advertencia">*Favor de notar que el filtro distingue mayúsculas de minúsculas</p>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Edad</th>
-            <th>Equipo</th>
-            <th>Posicion</th>
-            <th>Nacionalidad</th>
-            <th>Imagen</th>
-        </tr>
-        <tr *ngFor="let item of data | filtro:search">
-            <td>{{item.id}}</td>
-            <td>{{item.Nombre}}</td>
-            <td>{{item.Edad}}</td>
-            <td>{{item.Equipo}}</td>
-            <td>{{item.Posicion}}</td>
-            <td>{{item.Nacionalidad}}</td>
-            <td><img src="{{item.Imagen}}" alt=""></td>
-        </tr>
+    <b><p id="advertencia">*Favor de notar que el filtro distingue mayúsculas de minúsculas</p></b>
+    
+    <table class="table table-sm table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Posición</th>
+                <th scope="col">Equipo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let item of data | filtro:search" role="button" (click)="viewPlayer(item.id)"> 
+                <td>{{item.id}}</td>
+                <td>{{item.Nombre}}</td>
+                <td>{{item.Posicion}}</td>
+                <td>{{item.Equipo}}</td>
+            </tr>
+        </tbody>
+        
+        
     </table>
+</div>
+
+<div *ngIf="idSelected != 0">
+    <button (click)="viewPlayer('0')"><img src="https://es.seaicons.com/wp-content/uploads/2015/11/arrow-back-icon.png" width="80rem" alt=""></button>
+    <app-view-player [idSelected]="idSelected"></app-view-player>
 </div>
 

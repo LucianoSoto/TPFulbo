@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../service/api.service';
+import { ViewPlayerComponent } from './view-player/view-player.component';
 
 @Component({
   selector: 'app-player-list',
   templateUrl: './player-list.component.html',
   styleUrls: ['./player-list.component.css']
 })
+
 export class PlayerListComponent implements OnInit{
   public data: any[] = [];
   public search: string = '';
+  public idSelected:number = 0;
 
   constructor(private apiService: ApiService){}
 
@@ -24,6 +27,12 @@ export class PlayerListComponent implements OnInit{
 
   onSearchPlayer(search:string){
     this.search = search;
+  }
+
+  viewPlayer(id:string){
+    this.idSelected = Number(id);
+    console.log(this.idSelected);
+    
   }
 }
 

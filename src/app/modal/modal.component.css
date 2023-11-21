@@ -1,0 +1,18 @@
+.modal_body{
+    background-color: rgb(20, 214, 214);
+    width: 11rem;
+    height: 5rem;
+    position: relative;
+    right: 20rem;
+    
+}
+
+.ver_equipo_final{
+    background-color: rgb(5, 5, 230);
+    color: rgb(252, 0, 0);
+    position: relative;
+    top: -25rem;
+    left: 65rem;
+    width: 11.5rem;
+    
+}

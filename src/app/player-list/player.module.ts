@@ -2,13 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PlayerListComponent } from './player-list.component';
 import { FiltroPipe } from './pipes/filtro.pipe';
+import { ViewPlayerComponent } from './view-player/view-player.component';
 
 
 
 @NgModule({
   declarations: [
     PlayerListComponent,
-    FiltroPipe 
+    FiltroPipe,
+    ViewPlayerComponent
   ],
 
   imports: [
@@ -16,7 +18,7 @@ import { FiltroPipe } from './pipes/filtro.pipe';
   ],
 
   exports: [
-    PlayerListComponent
+    PlayerListComponent,
   ]
 })
 export class PlayerModule { }

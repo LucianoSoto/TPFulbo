@@ -241,10 +241,10 @@ export class GuessPlayerComponent implements OnInit{
           
           ` <select name="selector2" id="selector2" formControlName="selector2">
               <option value="" >--Elige una opción--</option>
-              <option value="delantero">Delantero</option>
-              <option value="centro">Centro-Campista</option>
-              <option value="defensa">Defensor</option>
-              <option value="portero">Portero</option>
+              <option value="Delantero">Delantero</option>
+              <option value="Centro-Campista">Centro-Campista</option>
+              <option value="Defensa">Defensor</option>
+              <option value="Portero">Portero</option>
             </select>
           `  
           break;

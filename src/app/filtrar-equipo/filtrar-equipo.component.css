@@ -1,0 +1,31 @@
+body{
+    background: url("https://www.shutterstock.com/image-illustration/champions-league-2021-soccer-ball-600nw-1956515449.jpg") center no-repeat;
+    background-size: cover;
+
+    
+    height: 700px;
+}
+
+.buscador{
+    position: absolute;
+    background-color: rgb(14, 206, 206);
+
+    top: 5rem;
+    left: 60rem;
+}
+
+#lista{
+    position: absolute;
+    width: 30rem;
+    left: 4rem;
+    top: 3.5rem;
+    color: rgb(233, 5, 5);
+    font-size: 1.5vw;
+}
+
+.jugadores{
+    position:absolute;
+    width: 30rem;
+    left: 5rem;
+    top: 0.5rem;
+}

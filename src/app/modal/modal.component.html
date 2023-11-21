@@ -1,0 +1,41 @@
+<div class="modal">
+
+    <div class="modal_body">
+
+        
+
+
+        <form (ngSubmit) = "savedata(formTemplate)" #formTemplate ="ngForm">
+            <div id="">
+                
+                <label for="nombre">Nombre a buscar</label>
+                <input  type="text" id="nombres" name="nombre" ngModel>
+    
+                <button type="submit">Buscar</button>
+              
+                
+            </div>
+
+            <div class="ver_equipo_final" (click)="ver_equipo_final()" >
+            
+                <div>
+
+                    <h1> TU EQUIPO </h1>
+                    
+                    <ul>
+                        <li  *ngFor="let datos of equipo_final"> {{ datos }} <br><br> </li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+
+            
+        </form>
+        
+        
+
+    </div>
+
+</div>
