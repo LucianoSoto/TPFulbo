@@ -1,0 +1,40 @@
+
+<div *ngIf="idSelected == 0">
+    <h1>Lista de Equipos</h1>
+    <br>
+    <input type="text" 
+           class="form-control" 
+           placeholder="Buscar Equipo" 
+           #txtSearch
+           (keyup)="onSearchTeam( txtSearch.value )"/>
+    <br>
+    <b><p id="advertencia">*Favor de notar que el filtro distingue mayúsculas de minúsculas</p></b>
+    
+    <table class="table table-sm table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">DT</th>
+                <th scope="col">Liga</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let item of data | filtro:search" role="button" (click)="viewTeam(item.id)"> 
+                <td>{{item.id}}</td>
+                <td>{{item.Nombre}}</td>
+                <td>{{item.DT}}</td>
+                <td>{{item.Liga}}</td>
+            </tr>
+        </tbody>
+        
+        
+    </table>
+</div>
+
+<div *ngIf="idSelected != 0">
+    <button (click)="viewTeam('0')"><img src="https://es.seaicons.com/wp-content/uploads/2015/11/arrow-back-icon.png" width="80rem" alt=""></button>
+    <app-view-team [idSelected]="idSelected"></app-view-team>
+</div>
+

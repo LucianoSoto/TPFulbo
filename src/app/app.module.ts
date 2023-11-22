@@ -9,6 +9,8 @@ import { GuessPlayerComponent } from './guess-player/guess-player.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalComponent } from './modal/modal.component';
 import { DreamTeamComponent } from './dream-team/dream-team.component';
+import { TeamModule } from './team-list/team.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,12 @@ import { DreamTeamComponent } from './dream-team/dream-team.component';
     ModalComponent,
     DreamTeamComponent,
     GuessPlayerComponent,
-    
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     PlayerModule,
+    TeamModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,

@@ -1,0 +1,27 @@
+<div id="ficha">
+    
+    <h1>{{team.Nombre}}</h1>
+
+    <hr>
+    
+    
+    <div id="datos">
+        <img src="{{team.Escudo}}" alt="">
+        
+        <div id="fichaDerecha">
+                <br><br><br><br>
+                <h3>Liga: {{team.Liga}}</h3>
+                <h3>Titulos: {{team.Titulos}}</h3>
+                <h3>Director Técnico: {{team.DT}}</h3>
+                
+
+            </div>
+        
+    </div>
+            <details>
+                <summary>Goleadores Historicos:</summary>
+                    <ul *ngFor="let player of team.Goleadores">
+                        <li>{{player}}</li>
+                    </ul>
+            </details>
+</div>

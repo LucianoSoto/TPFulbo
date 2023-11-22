@@ -24,13 +24,32 @@ hr{
 
 #fichaDerecha{
     padding-left: 10%;
-    padding-bottom: 1%;
 }
 
 h1{
     font-size: 3.7rem;
 }
 
-h3{
+h3, summary{
     font-size: 2rem;
+}
+summary{
+    font-weight: 600;
+}
+
+img{
+    size: 0.5rem;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+details{
+    justify-content: center;
+    text-align: center;
 }

@@ -31,7 +31,7 @@ export class PlayerListComponent implements OnInit{
 
   viewPlayer(id:string){
     this.idSelected = Number(id);
-    console.log(this.idSelected);
+    this.search = '';
     
   }
 }
