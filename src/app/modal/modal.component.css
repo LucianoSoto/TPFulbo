@@ -11,8 +11,16 @@
     background-color: rgb(5, 5, 230);
     color: rgb(252, 0, 0);
     position: relative;
-    top: -25rem;
+    top: -27rem;
     left: 65rem;
     width: 11.5rem;
     
+}
+
+img{
+    position: absolute;
+    top: -10rem;
+    left: 24rem;
+    width: 25rem;
+    height: 22rem;
 }

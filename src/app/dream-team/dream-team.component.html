@@ -7,50 +7,26 @@
 </head>
 <body>
     
-<h1> ARMA TU EQUIPO SOÑADO </h1>
+<h1> Arma tu equipo soñado! </h1>
 
-
-
-
+<div *ngIf="modalswitch != true">
+    <h4>1- Abri la carga de Jugadores</h4>
+<h4>2- Selecciona la posicion en la que queres que juegue</h4>
+<h4>3- Escribi tu jugador</h4>
+<p>** Favor de notar que debe estar escrito exactamente como figura en la lista</p>
+</div>
 
 
 <div class="cancha">
-
+    
+    <button class="abrir_modal btn btn-secondary" (click)="openmodal()"> Abrir carga de jugadores </button>
+    
     <div class="ar" (click)="openmodal()"> 
         <div class="" *ngIf="modalswitch == true"> 
-            
             <app-modal></app-modal>
-                    
         </div>
-
-        
-
     </div>
-
-    <button class="abrir_modal" (click)="openmodal()"> Abrir carga de jugadores </button>
-    
-    <div class="ld" > </div>
-    
-    <div class="li" > </div>
-    
-    <div class="dfci"> </div>
-    
-    <div class="dfcd" > </div>
-    
-    <div class="mcd">  </div>
-    
-    <div class="mcoi" > </div>
-    
-    <div class="mcod" > </div>
-    
-    <div class="ei" > </div>
-    
-    <div class="dc" > </div>
-    
-    <div class="ed" > </div>
-
 </div>
-
 
 
 
