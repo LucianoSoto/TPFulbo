@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from '../auth/auth.service';
 
 @Component({
   selector: 'app-nav',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
 
-  
+  constructor(private authService : AuthService){}
+
+  checkLogged(){
+    return this.authService.isLogged();
+  }
 
 }

@@ -7,14 +7,19 @@ import { DreamTeamComponent } from './dream-team/dream-team.component';
 import { TeamListComponent } from './team-list/team-list.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LoginComponent } from './login/login.component';
+import { authGuard } from './auth/auth.guard';
+import { LogoutComponent } from './logout/logout.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: 'home', component: HomeComponent },
-  { path: 'playerList', component: PlayerListComponent },
-  { path: 'guessPlayer', component: GuessPlayerComponent },
-  { path: 'dreamTeam', component: DreamTeamComponent},
-  { path: 'teamList', component: TeamListComponent},
+  { path: '', redirectTo: 'login', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent},
+  { path: 'home', component: HomeComponent, canActivate: [authGuard]},
+  { path: 'playerList', component: PlayerListComponent, canActivate: [authGuard] },
+  { path: 'guessPlayer', component: GuessPlayerComponent, canActivate: [authGuard] },
+  { path: 'dreamTeam', component: DreamTeamComponent, canActivate: [authGuard]},
+  { path: 'teamList', component: TeamListComponent, canActivate: [authGuard]},
+  { path: 'logout', component: LogoutComponent, canActivate: [authGuard]},
   { path: 'notFound', component: NotFoundComponent},
   { path: '**', redirectTo: 'notFound'}
 ];

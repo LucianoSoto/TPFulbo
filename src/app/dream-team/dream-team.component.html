@@ -2,59 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     
-<h1> Arma tu equipo soñado! </h1>
-
-<div *ngIf="modalswitch != true">
-    <h4>1- Abri la carga de Jugadores</h4>
-<h4>2- Selecciona la posicion en la que queres que juegue</h4>
-<h4>3- Escribi tu jugador</h4>
-<p>** Favor de notar que debe estar escrito exactamente como figura en la lista</p>
-</div>
-
-
-<div class="cancha">
+    <h1> Arma tu equipo soñado! </h1>
     
-    <button class="abrir_modal btn btn-secondary" (click)="openmodal()"> Abrir carga de jugadores </button>
-    
-    <div class="ar" (click)="openmodal()"> 
-        <div class="" *ngIf="modalswitch == true"> 
-            <app-modal></app-modal>
-        </div>
-    </div>
-</div>
+
+    <div class="cancha"></div>
+
+        
 
 
+        <form id="buscador" (ngSubmit) = "savedata(formTemplate)" #formTemplate ="ngForm">
+            <fieldset>
+
+                <legend> -- Buscar Jugador -- </legend>
+                
+                <div id="">
+                
+                    <label for="nombre">Nombre</label>
+                    <input  type="text" id="nombres" name="nombre" required ngModel >
+                    
+                </div>
+                <div>
+                    <label for="posicion">Posición</label>
+                    <select name="posicion" id="posicion" ngModel required> 
+                        <option value="" disabled selected> -- Seleccione -- </option>
+                        <option value="Portero">Portero</option>
+                        <option value="Lateral izquierdo">Lateral izquierdo</option>
+                        <option value="Defensa central izquierdo">Defensa central izquierdo</option>
+                        <option value="Defensa central derecho">Defensa central derecho</option>
+                        <option value="Lateral derecho">Lateral derecho</option>
+                        <option value="Medio campista defensivo">Medio campista defensivo</option>
+                        <option value="Medio campista ofensivo">Medio campista ofensivo</option>
+                        <option value="Medio campista ofensivo">Medio campista ofensivo</option>
+                        <option value="Extremo izquierdo">Extremo izquierdo</option>
+                        <option value="Delantero centro">Delantero centro</option>
+                        <option value="Extremo derecho">Extremo derecho</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </div>
+                
+            </fieldset>
+            </form>
+            
+            
+
+            <div id="imagenes">
+                <img id="imagen" [src]="imageUrl"> 
+            </div>
 
 
+                
+            <h2 class="tu_equipo"> Tu Equipo </h2>
+
+            <div class="ver_equipo_final" >
+            
+                <div>
+
+                    
+                    <div>
+                        
+                        <ul>
+                          <ng-container *ngFor="let item1 of equipo_final; let i = index">
+                            <li> {{ item1 }}</li>
+                            <p *ngIf="posicion_final[i]">{{ posicion_final[i] }}</p>
+                          </ng-container>
+                      
+                          
+                          <ng-container *ngFor="let item2 of posicion_final; let i = index">
+                            <li *ngIf="i >= equipo_final.length"> {{ item2 }}</li>
+                          </ng-container>
+                        </ul>
+                      </div>
+                    
+                </div>
+
+            </div>
 
 
-<!-- 
-<div class = "cancha">
-    
-    <h2> Lista de jugadores </h2>
-    <ul>
-        <li *ngFor ="let item of data.players">
-            {{item.Nombre}}
-            {{item.Nacionalidad}}
-        </li>
-    </ul>
-    
-    
-</div>
--->
-
-    
+            
+        
+        
 
 </body>
 </html>
-
-
-
-
-
-

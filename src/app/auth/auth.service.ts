@@ -8,7 +8,7 @@ export class AuthService {
 
   constructor() { }
   
-  getAuthToken() : Observable<boolean>{
-    return of(true);
+  isLogged(){
+    return !!localStorage.getItem('token');
   }
 }

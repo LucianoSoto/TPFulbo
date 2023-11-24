@@ -1,4 +1,8 @@
-<form action="">
-    <input type="text" placeholder="Escriba su nombre de Usuario">
-    <button>Ingresar</button>
+
+<h1>Escribi un nombre de Usuario para ingresar a la Aplicación</h1> <br><br>
+
+<form [formGroup] = "form" (submit)="Login()">
+    
+    <input type="text" placeholder="Nombre de Usuario" formControlName="username"> <br><br><br>
+    <button type="submit" class="btn btn-primary">Ingresar</button>
 </form>
