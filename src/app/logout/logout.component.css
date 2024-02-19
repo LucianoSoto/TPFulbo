@@ -1,0 +1,37 @@
+#logout{
+    background-image: url("../../assets/Wallpapers/WP_Logout.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+h1{
+    color: rgb(151, 75, 151);
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 6rem;
+}
+
+button{
+    height: 10%;
+    width: 25%;
+    margin-left: 6%;
+    background-color: rgb(151, 75, 151);
+    border-color: black;
+    color: black;
+    -webkit-text-stroke: black;
+    font-size: 2rem;
+    font-weight:600;
+    justify-content: center;
+    text-align: center;
+}
+
+#btn{
+    padding-top: 10%;
+    padding-right: 6%;
+    text-align: center;
+    justify-content: center;
+}

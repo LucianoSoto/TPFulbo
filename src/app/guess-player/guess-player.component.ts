@@ -12,11 +12,12 @@ import { Observable } from 'rxjs';
 export class GuessPlayerComponent implements OnInit{
 
   public data: any[] = [];
-  public player = {id: "", Nombre: "" ,Pila: "", Posicion: "", Equipo: "", Nacionalidad: "", Liga: "", Edad: ""};
+  public player = {id: "", Nombre: "" ,Pila: "", Posicion: "", Equipo: "", Nacionalidad: "", Liga: "", Edad: "", Goles: "", Valor: ""};
   public form : FormGroup;
   public guess : FormGroup;
   public answer : boolean;
   public intentos : number = 3;
+  public tipoConsulta = "";
 
 
   constructor(private apiService: ApiService, private formBuilder : FormBuilder){}
@@ -47,12 +48,15 @@ export class GuessPlayerComponent implements OnInit{
 
   Consulta() : any{
     var edad : any = '';
+    var goles : any = '';
+    var valor : any = '';
     switch(this.form.value.selector){
       case "":{
         alert("Por favor, inserte un parametro para realizar una busqueda");
         break;
       }
       case "Nacionalidad":{
+        this.tipoConsulta = "select";
         if(this.form.value.selector2 == ""){
           alert("Por favor selecciona una opción");
         }
@@ -69,6 +73,7 @@ export class GuessPlayerComponent implements OnInit{
         break;
       }
       case "Liga":{
+        this.tipoConsulta = "select";
         if(this.form.value.selector2 == ""){
           alert("Por favor selecciona una opción");
         }
@@ -85,6 +90,7 @@ export class GuessPlayerComponent implements OnInit{
         break;
       }
       case "Posición":{
+        this.tipoConsulta = "select";
         if(this.form.value.selector2 == ""){
           alert("Por favor selecciona una opción");
         }
@@ -101,6 +107,7 @@ export class GuessPlayerComponent implements OnInit{
         break;
       }
       case "Equipo":{
+        this.tipoConsulta = "select";
         if(this.form.value.selector2 == ""){
           alert("Por favor selecciona una opción");
         }
@@ -116,6 +123,7 @@ export class GuessPlayerComponent implements OnInit{
         break;
       }
       case "Edad":{
+        this.tipoConsulta = "number";
         if(this.form.value.selector2 == ""){
           alert("Por favor selecciona una opción");
         }
@@ -132,6 +140,49 @@ export class GuessPlayerComponent implements OnInit{
           }
         }
         this.agregarConsulta(this.form.value.selector, this.form.value.selector2, edad);
+      }
+        break;
+      }
+      case "Goles":{
+        this.tipoConsulta = "number";
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+        if(this.form.value.selector2 == this.player.Goles){
+          goles = true;
+        }
+        else{
+          if(this.player.Goles > this.form.value.selector2){
+            goles = "Mas goles!";
+          }
+          else{
+            goles = "Menos goles!";
+          }
+        }
+        this.agregarConsulta(this.form.value.selector, this.form.value.selector2, goles);
+      }
+        break;
+      }
+      case "Valor":{
+        this.tipoConsulta = "number";
+        console.log(this.tipoConsulta);
+        if(this.form.value.selector2 == ""){
+          alert("Por favor selecciona una opción");
+        }
+        else{
+        if(this.form.value.selector2 == this.player.Valor){
+          valor = true;
+        }
+        else{
+          if(this.player.Valor > this.form.value.selector2){
+            valor = "Mas caro!";
+          }
+          else{
+            valor = "Mas barato!";
+          }
+        }
+        this.agregarConsulta(this.form.value.selector, this.form.value.selector2, valor);
       }
         break;
       }
@@ -301,35 +352,36 @@ export class GuessPlayerComponent implements OnInit{
           break;
         }
         case "Edad": {
-          selector.innerHTML = 
+
+          selector.innerHTML = `<input name="selector2" id="selector2" formControlName="selector2" type="text">`
           
-          ` <select name="selector2" id="selector2" formControlName="selector2">
-              <option value="" >--Elige una opción--</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
-              <option value="32">32</option>
-              <option value="33">33</option>
-              <option value="34">34</option>
-              <option value="35">35</option>
-              <option value="36">36</option>
-              <option value="37">37</option>
-              <option value="38">38</option>
-              <option value="39">39</option>
-              <option value="40">40</option>
-            </select>
-          `  
+          // ` <select name="selector2" id="selector2" formControlName="selector2">
+          //     <option value="" >--Elige una opción--</option>
+          //     <option value="18">18</option>
+          //     <option value="19">19</option>
+          //     <option value="20">20</option>
+          //     <option value="21">21</option>
+          //     <option value="22">22</option>
+          //     <option value="23">23</option>
+          //     <option value="24">24</option>
+          //     <option value="25">25</option>
+          //     <option value="26">26</option>
+          //     <option value="27">27</option>
+          //     <option value="28">28</option>
+          //     <option value="29">29</option>
+          //     <option value="30">30</option>
+          //     <option value="31">31</option>
+          //     <option value="32">32</option>
+          //     <option value="33">33</option>
+          //     <option value="34">34</option>
+          //     <option value="35">35</option>
+          //     <option value="36">36</option>
+          //     <option value="37">37</option>
+          //     <option value="38">38</option>
+          //     <option value="39">39</option>
+          //     <option value="40">40</option>
+          //   </select>
+          // `  
           break;
         }
         }

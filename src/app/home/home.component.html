@@ -1,7 +1,18 @@
-<div>
-    <img src="https://cnnespanol.cnn.com/wp-content/uploads/2022/12/221218143136-lionel-messi-world-cup-trophy-kiss-121822-full-169.jpg?quality=100&strip=info" alt="">
+<div id="home"> 
+    <img src="../../assets/Wallpapers/WP_Home.jpg" alt="">  
+    <aside>
+        <h1>Top Jugadores</h1>
+        <hr>
+           <br>
+           <div id="playerList">
+                <div *ngFor="let player of topPlayers;" id="playerRow"> 
+                        <img id="playerImg" src="{{player.Imagen}}" alt="">
+                        <p>{{player.id}}- {{player.Nombre}}</p>
+                </div>
+           </div>
+           <div>
+                <h3>Aplicación creada por Luciano Soto, Matias Duarte</h3>
+           </div>
+    </aside>
 </div>
-
-<footer>
-        <p>Aplicacion realizada por: Luciano Soto Y Matias Duarte</p>
-    </footer>
+    

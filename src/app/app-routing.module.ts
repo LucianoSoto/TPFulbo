@@ -10,10 +10,12 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './login/login.component';
 import { authGuard } from './auth/auth.guard';
 import { LogoutComponent } from './logout/logout.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full'},
   { path: 'login', component: LoginComponent},
+  { path: 'signup', component: SignupComponent},
   { path: 'home', component: HomeComponent, canActivate: [authGuard]},
   { path: 'playerList', component: PlayerListComponent, canActivate: [authGuard] },
   { path: 'guessPlayer', component: GuessPlayerComponent, canActivate: [authGuard] },

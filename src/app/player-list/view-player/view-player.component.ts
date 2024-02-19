@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ApiService } from '../../service/api.service';
+import { TeamApiService } from 'src/app/service/team-api.service';
 
 @Component({
   selector: 'app-view-player',
@@ -8,10 +9,12 @@ import { ApiService } from '../../service/api.service';
 })
 export class ViewPlayerComponent implements OnInit{
   @Input() idSelected : number;
-  public data: any[] = [];
+  public dataPlayer: any[] = [];
+  public dataTeam: any[] = [];
   public player = {id: "", Nombre: "" ,Pila: "", Posicion: "", Equipo: "", Nacionalidad: "", Liga: "", Edad: "", Altura: "", Goles: "", Valor: "", Imagen: ""};
+  public team = {Nombre: "", Escudo: "", Liga: "", Titulos: "", DT: "", Goleadores: ""};
 
-  constructor(private apiService: ApiService){}
+  constructor(private apiService: ApiService, private teamService: TeamApiService){}
 
 
   ngOnInit() : void{
@@ -20,13 +23,20 @@ export class ViewPlayerComponent implements OnInit{
 
   public getPlayer(idSelected:number){ 
     this.apiService.getData().subscribe(data => {
-      this.data = data;
-      this.data.forEach(i => {
+      this.dataPlayer = data;
+      this.dataPlayer.forEach(i => {
         if(i.id == idSelected){
           this.player = i;
-          console.log(this.player);
         }
       });
+    })
+    this.teamService.getData().subscribe(data =>{
+      this.dataTeam = data;
+      this.dataTeam.forEach(i => {
+        if(this.player.Equipo == i.Nombre){
+          this.team = i; 
+        }
+      })
     })
 }
 

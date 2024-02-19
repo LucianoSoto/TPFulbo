@@ -1,0 +1,56 @@
+#signup{
+    background-image: url("../../assets/Wallpapers/WP_Signup.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1{
+    color: rgb(151, 75, 151);
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    font-size: 6rem;
+}
+
+input{
+    width: 35%;
+    height: 6%;
+    font-size: 1.4rem;
+}
+
+#inputs{
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.submitbtn{
+    padding-top: 4%;
+    padding-right: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+button{
+    height: 5rem;
+    width: 20rem;
+    margin-left: 6%;
+    background-color: rgb(151, 75, 151);
+    border-color: black;
+    color: black;
+    -webkit-text-stroke: black;
+    font-weight:600;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+button :hover{
+    background-color: rgb(107, 31, 107) !important;
+
+}
+

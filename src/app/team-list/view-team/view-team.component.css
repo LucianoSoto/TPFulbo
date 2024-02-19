@@ -17,17 +17,19 @@ hr{
     border: solid 3px;
     padding: 2%;
     margin: 2%;
-    border-radius: 10%;
-    background-color: grey;
+    border-radius: 25px;
+    background-color: rgb(98, 78, 167);
     justify-content: center;
 }
 
 #fichaDerecha{
     padding-left: 10%;
+    padding-bottom: 5%;
 }
 
 h1{
     font-size: 3.7rem;
+    font-weight: 700;
 }
 
 h3, summary{

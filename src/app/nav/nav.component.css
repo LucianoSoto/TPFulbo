@@ -1,9 +1,11 @@
 nav{
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(87, 55, 202);
+    font-size: 1.6rem;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(41, 17, 129);
     border-bottom: solid 2px;
     color: white;
+    margin: 0%;
+    padding: 0%;
 }
 
 nav ul{
@@ -17,9 +19,55 @@ nav a{
     float: left;
     text-decoration: none;
     color: white;
-    margin-top: 10%;
 }
 
 .active-link a{
     color: black;
 }
+
+.dropbtn {
+    background-color: rgb(41, 17, 129);
+    color: white;
+    padding: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(41, 17, 129);
+    padding: 7%;
+    padding-right: 15%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+  }
+
+  .itemlist{
+    padding-bottom: 20%;
+  }
+
+  .item{
+    padding-top: 1%;
+  }
+  
+  .dropdown-items{
+    display: flex;
+    flex-direction: column;  
+  }
+    .dropdown-content li:hover{
+        background-color: rgb(41, 17, 129) !important;
+    }
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: rgb(41, 17, 129);}
+  .dropdown-content a:hover {text-decoration:underline}

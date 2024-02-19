@@ -1,11 +1,58 @@
 img{
-    width: 100%;
+    width: 70%;
+    height: 90.7%;
 }
 
-footer{
-    background-color: gray;
-    font-size: 1.7rem; 
-    padding-bottom: 3%;  
+h1{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+    padding-top: 5%;
     text-align: center;
     justify-content: center;
 }
+
+aside {
+    width: 30%;
+    float: right;
+    background-color: rgb(101, 76, 194);
+    height: 90.7%;
+    border-style: double ;
+}
+
+p{
+    padding-top: 2%;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#playerList{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+}
+
+#playerRow{
+    display: flex;
+}
+
+#playerImg{
+    width: 70px;
+    height: 70px;
+}
+

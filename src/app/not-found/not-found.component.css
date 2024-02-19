@@ -1,7 +1,35 @@
 h1{
+    padding-top: 10%;
+    justify-content: center;
+    text-align: center;
+    font-size: 5.5rem;
+    color: rgb(151, 75, 151);
+    font-weight: 700;
+}
+#notfound{
+    background-image: url("../../assets/Wallpapers/WP_Not_Found.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+button{
+    height: 10%;
+    width: 25%;
+    margin-left: 6%;
+    background-color: rgb(151, 75, 151);
+    border-color: black;
+    color: black;
+    -webkit-text-stroke: black;
+    font-size: 2rem;
+    font-weight:600;
+    justify-content: center;
     text-align: center;
 }
 
-img{
-    width: 100%;
+#btn{
+    padding-top: 10%;
+    padding-right: 6%;
+    text-align: center;
+    justify-content: center;
 }

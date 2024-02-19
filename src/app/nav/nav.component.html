@@ -1,22 +1,49 @@
+
+<header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+</header>
 <nav *ngIf="checkLogged()">
     <ul>
-        <li>
+        <li class="item">
             <a routerLink="/home"><img src="https://static.vecteezy.com/system/resources/previews/015/082/027/original/classic-soccer-ball-or-football-png.png" alt=""height="60px"></a>
         </li>
-        <li>
-            <a routerLink="/playerList" routerLinkActive="active-link">Lista de Jugadores</a>
+        <li class="dropdown">
+            <button class="dropbtn">Bases de Datos ↓</button>
+            <div class="dropdown-content">
+                <ul>
+                    <div class="dropdown-items">
+                        <li>
+                            <a routerLink="/playerList" routerLinkActive="active-link" class="itemlist">Lista de Jugadores</a>
+                        </li>
+                        <li>
+                            <a routerLink="/teamList" routerLinkActive="active-link">Lista de Equipos</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </li>
-        <li>
-            <a routerLink="/teamList" routerLinkActive="active-link">Lista de Equipos</a>
+
+        <li class="dropdown">
+            <button class="dropbtn">Actividades ↓</button>
+            <div class="dropdown-content">
+                <ul>
+                    <div class="dropdown-items">
+                        <li>
+                        <a routerLink="/dreamTeam" routerLinkActive="active-link" class="itemlist">Armar Dreamteam</a>
+                        </li>
+                        <li>
+                            <a routerLink="/guessPlayer" routerLinkActive="active-link">Adivinar Jugador</a>
+                        </li>
+                    </div>        
+                </ul>
+            </div>
         </li>
-        <li>
-            <a routerLink="/dreamTeam" routerLinkActive="active-link">Armar Dreamteam</a>
-        </li>
-        <li>
-            <a routerLink="/guessPlayer" routerLinkActive="active-link">Adivinar Jugador</a>
-        </li>
-        <li>
-            <a routerLink="/logout" routerLinkActive="active-link">Logout</a>
+        
+        
+        <li  class="item">
+            <a routerLink="/logout" routerLinkActive="active-link">Cerrar Sesión</a>
         </li>
         
     </ul>

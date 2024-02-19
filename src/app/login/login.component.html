@@ -1,8 +1,17 @@
+<div id="login">
+    <h1>Iniciar Sesión</h1> <br><br>
 
-<h1>Escribi un nombre de Usuario para ingresar a la Aplicación</h1> <br><br>
-
-<form [formGroup] = "form" (submit)="Login()">
+    <form>
+        
+        <input type="text" name="username" placeholder="Nombre de Usuario" [(ngModel)]="loginObj.username">  <br>
+        <input type="password" name="password" placeholder="Contraseña" [(ngModel)]="loginObj.password"> 
+        <div class="submitbtn">
+            <button class="btn btn-primary buttons" (click)="Login()">Ingresar</button>
+        </div>
+        
+    </form>
+    <div class="submitbtn">
+        <button type="submit" class="btn btn-primary buttons" (click)="RedirectToSignup()">No tienes una cuenta?</button>
+    </div>
     
-    <input type="text" placeholder="Nombre de Usuario" formControlName="username"> <br><br><br>
-    <button type="submit" class="btn btn-primary">Ingresar</button>
-</form>
+</div>

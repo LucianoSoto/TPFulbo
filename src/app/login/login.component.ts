@@ -10,26 +10,39 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class LoginComponent implements OnInit{
 
-  public form : FormGroup;
+  loginUsers: any[] = [];
+  flag: number = 0;
+  loginObj:any = {
+    username: '',
+    password: ''
+  }
 
-  constructor(private formBuilder : FormBuilder, private router: Router){}
+  constructor(private router: Router){}
 
   ngOnInit(): void {
-    this.form = this.formBuilder.group({
-      username: ['', [Validators.required]]
-    });
+    const localdata = localStorage.getItem('signUpUsers');
+    if(localdata != null){
+      this.loginUsers = JSON.parse(localdata);
+    }
   }  
 
   Login(){
-    if(this.form.value.username != ''){
-      localStorage.setItem('token', this.form.value.username);
-      alert("Te has logeado correctamente!");
-      this.router.navigateByUrl('/home');
+    this.loginUsers.forEach(i =>{
+      if(i.username == this.loginObj.username && i.password == this.loginObj.password){
+         localStorage.setItem('token', i.username);
+         alert("Te has logeado correctamente!");
+         this.flag = 1;
+         this.router.navigateByUrl('/home');
+      }
+    })
+    if(this.flag == 0){
+      alert("El nombre de usuario o contraseña son incorrectos");
+      console.log(this.loginObj.password);
     }
-    else{
-      alert("Por favor inserte un nombre de usuario");
-    }
-    
+  }
+
+  RedirectToSignup(){
+    this.router.navigateByUrl('/signup');
   }
 
 }

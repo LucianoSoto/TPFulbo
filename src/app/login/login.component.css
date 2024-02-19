@@ -1,3 +1,11 @@
+#login{
+    background-image: url("../../assets/Wallpapers/WP_Login.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
 form{
     padding-top: 5%;
     justify-content: center;
@@ -5,11 +13,40 @@ form{
 }
 
 input{
-    width: 30%;
+
+    width: 35%;
+    height: 6%;
+    font-size: 1.4rem;
 }
 
 h1{
     padding-top: 10%;
     justify-content: center;
     text-align: center;
+    font-size: 5.5rem;
+    color: rgb(151, 75, 151);
+    font-weight: 700;
+}
+
+.submitbtn{
+    padding-top: 5%;
+    padding-right: 0%;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    height: 5rem;
+    width: 20rem;
+    background-color: rgb(151, 75, 151);
+    border-color: black;
+    color: black;
+    -webkit-text-stroke: black;
+    font-weight:600;
+    font-size: 1.4rem;
+}
+
+button :hover{
+    background-color: rgb(107, 31, 107) !important;
+
 }

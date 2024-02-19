@@ -1,6 +1,9 @@
 img{
     padding-left: 5%;
     width: 40%;
+    height: 40%;
+    border-style: initial;
+    border-radius: 25px;
 }
 
 #datos{
@@ -13,24 +16,44 @@ hr{
     color: black;
 }
 
+#fichaTop{
+    display: flex;
+    padding-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#escudo{
+    height: 225px;
+    width: 225px;
+    object-fit: contain;
+    position: absolute;
+    left: 75%;
+    bottom: 54%;
+}
+
 #ficha{
     border: solid 3px;
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
-    border-radius: 10%;
-    background-color: grey;
+    border-radius: 25px;
+    background-color: rgb(98, 78, 167);
     justify-content: center;
 }
 
 #fichaDerecha{
     padding-left: 10%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
 }
 
 h1{
     font-size: 3.7rem;
+    font-weight: 700;
 }
 
 h3{
     font-size: 2rem;
+    padding-top: 0%;
 }
+
