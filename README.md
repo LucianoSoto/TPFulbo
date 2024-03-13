@@ -20,3 +20,5 @@ Valores: https://www.transfermarkt.com.ar/
 ## Aclaraciones pertinentes
 
 La aplicación se empezó a desarrollar en Noviembre del 2023 y por ende, las estadísticas son correspondientes a ese mes y año.
+La aplicación no esta terminada. Aun falta pulir los estilos, arreglar el funcionamiento del dreamteam y agregar otras funcionalidades.
+Los usuarios son guardados en un localstorage, no en una base de datos, por lo que recomiendo no poner información sensible
