@@ -6,89 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <h1> Arma tu equipo soñado! </h1>
-    
 
-    <div class="cancha"></div>
-
-        
-
-
-        <form id="buscador" (ngSubmit) = "savedata(formTemplate)" #formTemplate ="ngForm">
-            <fieldset>
-
-                <legend> -- Buscar Jugador -- </legend>
-                
-                <div id="">
-                
-                    <label for="nombre">Nombre</label>
-                    <input  type="text" id="nombres" name="nombre" required ngModel >
-                    
-                </div>
-                <div>
-                    <label for="posicion">Posición</label>
-                    <select name="posicion" id="posicion" ngModel required> 
-                        <option value="" disabled selected> -- Seleccione -- </option>
-                        <option value="Portero">Portero</option>
-                        <option value="Lateral izquierdo">Lateral izquierdo</option>
-                        <option value="Defensa central izquierdo">Defensa central izquierdo</option>
-                        <option value="Defensa central derecho">Defensa central derecho</option>
-                        <option value="Lateral derecho">Lateral derecho</option>
-                        <option value="Medio campista defensivo">Medio campista defensivo</option>
-                        <option value="Medio campista ofensivo">Medio campista ofensivo</option>
-                        <option value="Medio campista ofensivo">Medio campista ofensivo</option>
-                        <option value="Extremo izquierdo">Extremo izquierdo</option>
-                        <option value="Delantero centro">Delantero centro</option>
-                        <option value="Extremo derecho">Extremo derecho</option>
-                    </select>
-                </div>
-                <br>
-                <div>
-                    <button type="submit" class="btn btn-primary">Buscar</button>
-                </div>
-                
-            </fieldset>
+    <div class="page">
+        <div id="selector">
+            <form id="selectFormation" [formGroup] = "formationInput" (submit)="selectFormation()">
+                <select class="form-control" formControlName="formation">
+                    <option value="noFormacion">--Selecciona una Formación--</option>
+                    <option value="FormacionA">3 - 2 - 2 - 3</option>
+                    <option value="FormacionB">1 - 3 - 3 - 3</option>
+                    <option value="FormacionC">4 - 4 - 1 - 1</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Elegir Formación</button>
             </form>
-            
-            
 
-            <div id="imagenes">
-                <img id="imagen" [src]="imageUrl"> 
-            </div>
-
-
-                
-            <h2 class="tu_equipo"> Tu Equipo </h2>
-
-            <div class="ver_equipo_final" >
-            
-                <div>
-
-                    
-                    <div>
-                        
-                        <ul>
-                          <ng-container *ngFor="let item1 of equipo_final; let i = index">
-                            <li> {{ item1 }}</li>
-                            <p *ngIf="posicion_final[i]">{{ posicion_final[i] }}</p>
-                          </ng-container>
-                      
-                          
-                          <ng-container *ngFor="let item2 of posicion_final; let i = index">
-                            <li *ngIf="i >= equipo_final.length"> {{ item2 }}</li>
-                          </ng-container>
-                        </ul>
-                      </div>
-                    
+            <button id="exportToPDF" class="btn btn-primary" (click)="exportToPdf()">Exportar a PDF</button>
+        </div>
+    
+    
+    
+        <div id="cancha" #cancha>
+            <div class="container">
+                <div id="wrap" class="{{selectedFormation}}">
+                    <div id="jug1" (click)="selectPos('0')"> <img src="{{playerArray[0]}}" alt=""></div>
+                    <div id="jug2" (click)="selectPos('1')"> <img src="{{playerArray[1]}}" alt=""></div>
+                    <div id="jug3" (click)="selectPos('2')"> <img src="{{playerArray[2]}}" alt=""></div>
+                    <div id="jug4" (click)="selectPos('3')"> <img src="{{playerArray[3]}}" alt=""></div>
+                    <div id="jug5" (click)="selectPos('4')"> <img src="{{playerArray[4]}}" alt=""></div>
+                    <div id="jug6" (click)="selectPos('5')"> <img src="{{playerArray[5]}}" alt=""></div>
+                    <div id="jug7" (click)="selectPos('6')"> <img src="{{playerArray[6]}}" alt=""></div>
+                    <div id="jug8" (click)="selectPos('7')"> <img src="{{playerArray[7]}}" alt=""></div>
+                    <div id="jug9" (click)="selectPos('8')"> <img src="{{playerArray[8]}}" alt=""></div>
+                    <div id="jug10" (click)="selectPos('9')"> <img src="{{playerArray[9]}}" alt=""></div>
+                    <div id="jug11" (click)="selectPos('10')"> <img src="{{playerArray[10]}}" alt=""></div>  
                 </div>
-
             </div>
+        </div>
 
 
-            
+        <div id="containerBuscador" *ngIf="posSelected != -1">
+            <div id="buscadorCSS">
+                    <form id="buscador" [formGroup]= "selectedPlayer" (submit)="selectPlayer()">
+                        <fieldset>
+                            <legend>Buscar Jugador</legend>
+                            <div>
+                                <label for="nombre">Nombre</label>
+                                <input  type="text" class="form-control" formControlName="player">
+                            </div>
+                            <br>
+                            <div>
+                                <button type="submit" class="btn btn-primary">Buscar</button>
+                            </div>
+                            
+                        </fieldset>
+                    </form>   
+            </div>
+        </div>
+    </div>
+
         
         
-
+    
 </body>
 </html>

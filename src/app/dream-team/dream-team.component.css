@@ -5,63 +5,152 @@ h1{
     text-align: center;
 }
 
-h2{
-    position: absolute;
-    background-color: rgb(104, 117, 117);
-    left: 65rem;
-    top: 15rem;
-    padding: 1% 5%;
-    text-align: center;
+.container{
+    display: grid;
 }
 
-#buscador{
-    position: absolute;
-    background-color: rgb(104, 117, 117);
-    padding: 2%;
-    border-radius: 10%;
-    top: 18rem;
-    left: 2rem;
-    font-size: 1rem;
+.page{
+    display: flex;
+    /* width: 100vw;
+    height: 100vh; */
+    height: auto;
+    width: auto;
+    flex-grow: 33%;
+}
+
+#selector{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    width: 15vw;
+}
+
+#selector button{
+    margin-top: 5%;
+    width: 100%;
+}
+
+#containerBuscador{
+    width: 30%;
+}
+
+#buscadorCSS{
+    align-self: center;
+    justify-self: center;
+    background-color: rgb(39, 27, 85);
+    color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    padding: 10%;
+    border: solid 3px;
+    border-radius: 25px;
+    width: 20vw;
 }
 
 legend{
-    font-size: 1.7rem;
+    font-size: 2rem;
+    font-weight: 500;
 }
 label{
-    padding-right: 10%;
+    font-size: 1.5rem;
 }
 
-.cancha{
-
-    background-image: url('https://img.freepik.com/fotos-premium/campo-futbol-arriba_68747-92.jpg'); 
+#cancha{ 
+    background-image: url('../../assets/Wallpapers/Playground.jpg'); 
     background-repeat: no-repeat;
     background-position: center center;
-    
-   
-    height: 600px;
-
+    /* padding: 9%; */
+    width: 40vw;
+    height: 40vh;
+    margin-top: 10%;
 
 }
 
-
-#imagenes{
-    position: absolute;
-    top: 20.5rem;
-    left: 35.5rem;
-    width: 25rem;
-    height: 22rem;
+#wrap{
+    margin: auto;
+    margin-left: 10%;
+    width: 50%;
+    gap: 4%;
+    height: 40vh;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: (5, 1fr);
+    color: white;
+    font-size: 1.2rem;
 }
 
-
-.ver_equipo_final{
-    position: relative;
-    left: 65rem;
-    top: -30rem;
-    width: 17.54rem;
-    font-size: 1.4rem;
-    background-color: rgb(104, 117, 117);
+.formacionA{
+    grid-template-areas: 
+    ". jug2 jug5 jug7 jug9"
+    "jug1 jug3 . . jug11"
+    ". jug4 jug6 jug8 jug10"; 
 }
 
+.formacionB{
+    grid-template-areas: 
+    ". . jug3 jug6 jug9"
+    "jug1 jug2 jug4 jug7 jug11"
+    ". . jug5 jug8 jug10"; 
+}
 
+.formacionC{
+    grid-template-areas: 
+    ". jug2 jug6 . ."
+    "jug1 jug3 jug7 jug10 jug11"
+    ". jug4 jug8 . ."
+    ". jug5 jug9 . . "; 
+}
 
+.noFormacion{
+    grid-template-areas: none;
+}
 
+#wrap img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#wrap div{
+    background: rgba(0,0,0,0.5);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-top: 2%;
+}
+
+#jug1{
+    grid-area: jug1;
+}
+#jug2{
+    grid-area: jug2;
+}
+#jug3{
+    grid-area: jug3;
+}
+#jug4{
+    grid-area: jug4;
+}
+#jug5{
+    grid-area: jug5;
+}
+#jug6{
+    grid-area: jug6;
+}
+#jug7{
+    grid-area: jug7;
+}
+#jug8{
+    grid-area: jug8;
+}
+#jug9{
+    grid-area: jug9;
+}
+#jug10{
+    grid-area: jug10;
+}
+#jug11{
+    grid-area: jug11;
+}

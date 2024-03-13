@@ -1,0 +1,25 @@
+<div id="rules" *ngIf="rules==true">
+    <h1>Bienvenido a Pixel Player</h1>
+    <h4>Reglas: </h4>
+    <p>1- Al apretar el boton "Inicio", el sistema seleccionará un jugador al azar</p>
+    <p>2- Su imagen estará pixelada</p>
+    <p>3- Escribe el nombre del jugador que creas que es</p>
+    <p>4- Acierta multiples veces para incrementar el contador!</p>
+
+    <button class="btn btn-primary" (click)="startGame()">Inicio</button>
+</div>
+
+<div id="game" *ngIf="rules == false">
+    <img src="{{playerImg}}" alt="">
+
+    <h2>Tu puntaje actual es: {{contador}}</h2>
+
+    <div id="guessBox"> 
+        <form [formGroup]="form">
+            <legend>Ingrese el nombre del jugador</legend>
+            <input id="player" type="text" placeholder="Nombre del Jugador" formControlName="player">
+
+            <button type="submit" class="btn btn-primary" (click)="adivinar()">Adivinar</button>
+        </form>
+    </div>
+</div>

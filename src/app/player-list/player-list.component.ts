@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../service/api.service';
+import { AppComponent } from '../app.component';
 import { ViewPlayerComponent } from './view-player/view-player.component';
 
 @Component({
   selector: 'app-player-list',
   templateUrl: './player-list.component.html',
-  styleUrls: ['./player-list.component.css']
+  styleUrls: ['./player-list.component.css'],
+  providers: [AppComponent]
 })
 
 export class PlayerListComponent implements OnInit{

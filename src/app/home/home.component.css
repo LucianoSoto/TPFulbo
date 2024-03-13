@@ -18,22 +18,24 @@ aside {
     background-color: rgb(101, 76, 194);
     height: 90.7%;
     border-style: double ;
+    padding: 1%
 }
 
-p{
-    padding-top: 2%;
-    font-size: 1.3rem;
-    font-weight: 500;
+#top{
+    background-color: rgb(70, 52, 134);
+    border-style: groove;
+    border-color: black;
 }
 
 h3{
-    font-size: 1.2rem;
+    padding-top: 4%;
+    font-size: 1.4rem;
     justify-content: center;
     text-align: center;
 }
 
 #playerList{
-    padding: 10%;
+    padding: 7%;
     display: flex;
     flex-direction: column;
     column-gap: 20%;
@@ -44,8 +46,12 @@ h3{
 
 hr{
     width: 90%;
+    height: 10px;
     margin: auto;
-}
+    border: none;
+    height: 9px;
+    background: black;
+} 
 
 #playerRow{
     display: flex;
@@ -56,3 +62,14 @@ hr{
     height: 70px;
 }
 
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+
+#playerName{
+    padding-left: 10%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+}

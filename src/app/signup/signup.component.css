@@ -3,6 +3,15 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
+    padding-top: 0.1%;
+}
+
+#data{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    margin: 10em; 
+    margin-left: 15em; 
+    margin-right: 15em; 
 }
 
 h1{
@@ -10,9 +19,9 @@ h1{
     font-weight: 700;
     justify-content: center;
     text-align: center;
-    padding-top: 7%;
-    padding-bottom: 3%;
-    font-size: 6rem;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 5rem;
 }
 
 input{
@@ -23,12 +32,13 @@ input{
 
 #inputs{
     padding-top: 5%;
+    padding-bottom: 2%;
     text-align: center;
     justify-content: center;
 }
 
 .submitbtn{
-    padding-top: 4%;
+    padding-bottom: 3%;
     padding-right: 5%;
     justify-content: center;
     text-align: center;

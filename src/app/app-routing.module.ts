@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { authGuard } from './auth/auth.guard';
 import { LogoutComponent } from './logout/logout.component';
 import { SignupComponent } from './signup/signup.component';
+import { PixelPlayerComponent } from './pixel-player/pixel-player.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full'},
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'guessPlayer', component: GuessPlayerComponent, canActivate: [authGuard] },
   { path: 'dreamTeam', component: DreamTeamComponent, canActivate: [authGuard]},
   { path: 'teamList', component: TeamListComponent, canActivate: [authGuard]},
+  { path: 'pixelPlayer', component: PixelPlayerComponent, canActivate: [authGuard]},
   { path: 'logout', component: LogoutComponent, canActivate: [authGuard]},
   { path: 'notFound', component: NotFoundComponent},
   { path: '**', redirectTo: 'notFound'}

@@ -8,7 +8,7 @@
 </div>
 
 <form [formGroup] = "form" (submit)="Consulta()">
-    <select name="selector" id="selector" formControlName="selector" #selection (input)="selector2( selection.value )">
+    <select name="selector" id="selector" formControlName="selector" #selection (input)="selector2(selection.value)">
         <option value="" >--Elige un parametro--</option>
         <option value="Nacionalidad">Nacionalidad</option>
         <option value="Liga">Liga</option>

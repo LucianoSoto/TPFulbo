@@ -1,18 +1,22 @@
 <div id="home"> 
     <img src="../../assets/Wallpapers/WP_Home.jpg" alt="">  
     <aside>
-        <h1>Top Jugadores</h1>
-        <hr>
-           <br>
-           <div id="playerList">
-                <div *ngFor="let player of topPlayers;" id="playerRow"> 
-                        <img id="playerImg" src="{{player.Imagen}}" alt="">
-                        <p>{{player.id}}- {{player.Nombre}}</p>
-                </div>
-           </div>
-           <div>
-                <h3>Aplicación creada por Luciano Soto, Matias Duarte</h3>
-           </div>
+          <div id="top">
+               <h1>Top Jugadores</h1>
+               <hr>
+                    <br>
+                    <div id="playerList">
+                         <table *ngFor="let player of topPlayers;" id="playerRow">
+                              <tr>
+                                   <td> <img id="playerImg" src="{{player.Imagen}}" alt=""></td>
+                                   <td id="playerName">{{player.id}}- {{player.Nombre}}</td>
+                              </tr>
+                         </table>
+                    </div>
+                    <div>
+                         <h3>Aplicación creada por Luciano Soto, Matias Duarte</h3>
+                    </div>
+          </div>
     </aside>
 </div>
     

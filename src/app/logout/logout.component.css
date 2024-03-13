@@ -3,8 +3,14 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
+    padding: 5%;
 }
 
+#data{
+    background: rgba(255, 255, 255, 0.5);
+    padding-bottom: 7%;
+    border-radius: 25px;
+}
 
 h1{
     color: rgb(151, 75, 151);
@@ -23,7 +29,7 @@ button{
     border-color: black;
     color: black;
     -webkit-text-stroke: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight:600;
     justify-content: center;
     text-align: center;

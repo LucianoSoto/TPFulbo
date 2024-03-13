@@ -1,18 +1,20 @@
     <div id="signup">
-        <h1>Ingrese sus datos</h1>
-
-        <form>
-            <div id="inputs">
-                <input type="text" placeholder="Nombre de Usuario" name="username" [(ngModel)]="signupObj.username"> <br>
-                <input type="password" placeholder="Contraseña" name="password" [(ngModel)]="signupObj.password"> <br>
-                <input type="email" placeholder="Dirección de correo electrónico" name="email" [(ngModel)]="signupObj.email"> 
-            </div>
-                
+        <div id="data">
+            <h1>Ingrese sus datos</h1>
+            <form>
+                <div id="inputs">
+                    <input type="text" placeholder="Nombre de Usuario" name="username" [(ngModel)]="signupObj.username"> <br>
+                    <input type="password" placeholder="Contraseña" name="password" [(ngModel)]="signupObj.password"> <br>
+                    <input type="email" placeholder="Dirección de correo electrónico" name="email" [(ngModel)]="signupObj.email"> 
+                </div>
+                            
+                <div class="submitbtn">
+                    <button type="submit" class="btn btn-primary" (click)="InsertData()">Crear Cuenta</button>
+                </div>
+            </form>
             <div class="submitbtn">
-                <button type="submit" class="btn btn-primary" (click)="InsertData()">Crear Cuenta</button>
+                        <button class="btn btn-primary" (click)="ReturnToLogin()">Ya tienes una cuenta?</button>
             </div>
-        </form>
-        <div class="submitbtn">
-            <button class="btn btn-primary" (click)="ReturnToLogin()">Ya tienes una cuenta?</button>
         </div>
+        
     </div>

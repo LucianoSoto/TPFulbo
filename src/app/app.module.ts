@@ -14,6 +14,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
 import { SignupComponent } from './signup/signup.component';
+import { PixelPlayerComponent } from './pixel-player/pixel-player.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SignupComponent } from './signup/signup.component';
     NotFoundComponent,
     LoginComponent,
     LogoutComponent,
-    SignupComponent
+    SignupComponent,
+    PixelPlayerComponent
   ],
   imports: [
     BrowserModule,

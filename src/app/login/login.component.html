@@ -1,17 +1,20 @@
 <div id="login">
-    <h1>Iniciar Sesión</h1> <br><br>
+    <div id="data">
+        <h1>Iniciar Sesión</h1> <br><br>
 
-    <form>
-        
-        <input type="text" name="username" placeholder="Nombre de Usuario" [(ngModel)]="loginObj.username">  <br>
-        <input type="password" name="password" placeholder="Contraseña" [(ngModel)]="loginObj.password"> 
+        <form>
+            
+            <input type="text" name="username" placeholder="Nombre de Usuario" [(ngModel)]="loginObj.username">  <br>
+            <input type="password" name="password" placeholder="Contraseña" [(ngModel)]="loginObj.password"> 
+            <div class="submitbtn">
+                <button class="btn btn-primary buttons" (click)="Login()">Ingresar</button>
+            </div>
+            
+        </form>
         <div class="submitbtn">
-            <button class="btn btn-primary buttons" (click)="Login()">Ingresar</button>
+            <button type="submit" class="btn btn-primary buttons" (click)="RedirectToSignup()">No tienes una cuenta?</button>
         </div>
         
-    </form>
-    <div class="submitbtn">
-        <button type="submit" class="btn btn-primary buttons" (click)="RedirectToSignup()">No tienes una cuenta?</button>
     </div>
     
 </div>
